@@ -1,0 +1,28 @@
+{
+  "name": "Search",
+  "path": "/:s",
+  "sections": [
+    {
+      "type": "website",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s | Deco.cx",
+      "descriptionTemplate": "%s | Deco.cx"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "Categoria - Breadcrumb"
+    },
+    {
+      "__resolveType": "Brand SEO"
+    },
+    {
+      "__resolveType": "SearchResults Category"
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

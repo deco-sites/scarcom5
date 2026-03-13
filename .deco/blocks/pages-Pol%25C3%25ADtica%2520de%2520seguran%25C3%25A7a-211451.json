@@ -1,0 +1,39 @@
+{
+  "name": "Política de segurança",
+  "path": "/institucional/politica-de-seguranca",
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<p>No site da Technos, toda a comunicação com os browsers dos seus usuários é criptografada<br>e 100% processada por computador, sem intervenção humana, impedindo que hackers<br>interceptem os dados e consigam usá-los para cometer fraudes.</p><p>Todas as informações solicitadas que passam pelo nosso processo de compra on-line são<br>codificadas, desde os seus dados pessoais até a forma de pagamento escolhida e os dados<br>do cartão.&nbsp;</p><p>O navegador com o certificado exibe um cadeado no momento da compra, mostrando<br>desta forma que as informações inseridas estão seguras. Verifique este ícone \"cadeado<br>fechado\" na parte inferior do seu monitor durante o seu pedido de compra na Technos. No<br>site <a href=\"https://www.technos.com.br\" data-mce-href=\"https://www.technos.com.br\">www.technos.com.br</a>, o número do seu cartão de crédito é usado somente no processamento<br>de compra, não sendo, de nenhuma forma, guardado nos arquivos depois da operação.</p><p>Possuímos certificados de segurança para garantir a maior segurança, confiabilidade e<br>tranquilidade para os nossos clientes. Esta certificação e a blindagem do site significam que o site<br>da Technos foi testado pelos mais rígidos padrões internacionais de segurança para a internet. Com<br>isso, ao comprar no nosso site, você está protegido</p>"
+            },
+            "title": "Política de segurança"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Formas de Envio",
+  "path": "/institucional/formas-envio",
+  "sections": [
+    {
+      "__resolveType": "Analytics"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "site/sections/Institutional/AsideMenu.tsx",
+              "menuItems": [
+                {
+                  "target": "_self",
+                  "href": "/institucional/sobre",
+                  "label": "Sobre"
+                },
+                {
+                  "target": "_self",
+                  "label": "Política de Devolução",
+                  "href": "/institucional/politica-de-devolucao"
+                },
+                {
+                  "target": "_self",
+                  "label": "Formas de Envio",
+                  "href": "/institucional/formas-envio"
+                },
+                {
+                  "target": "_self",
+                  "label": "Como Comprar",
+                  "href": "/institucional/como-comprar"
+                },
+                {
+                  "target": "_self",
+                  "label": "Política de Privacidade",
+                  "href": "/institucional/politica-de-privacidade"
+                },
+                {
+                  "target": "_self",
+                  "label": "Nossas Lojas",
+                  "href": "/institucional/nossas-lojas"
+                },
+                {
+                  "target": "_self",
+                  "label": "Fale Conosco",
+                  "href": "/institucional/contato"
+                }
+              ]
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<h1 class=\"institutional-main-heading\"><span style=\"color: rgb(0, 0, 0); font-size: 24pt;\" data-mce-style=\"color: rgb(0, 0, 0); font-size: 24pt;\">FORMAS DE ENVIO</span></h1><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">A Scarcom Informática disponibiliza as seguintes formas de envio. Escolha a melhor opção para sua maior comodidade.</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><h2><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">MOTOBOY</span><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"></span><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"></span></h2><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Para São Paulo capital e grande ABC. Consulte seu CEP e confirme se esse tipo de entrega atende o perímetro desejado.</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Motoboy convencional - Custo calculado no ato do fechamento do pedido:</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Para otimizar o serviço do motoboy e conseguir um preço mais acessível desse serviço, as entregas são programadas pelo departamento de logística da Scarcom Informática e funciona de modo que os pedidos entrarão na disponibilidade da agenda do motoboy de acordo com sua localidade, pode levar de 12 a 48horas a entrega, após aprovação. A entrega é agendada por período, não tendo assim um horário fixo previsto. Para consultar a previsão de entrega desse serviço, basta entrar em contato pelo e-mail atendimento@scarcom.com.br ou telefone (11) 3279 5555, tendo assim a confirmação da data de entrega e do período (manhã ou tarde) que receberá sua mercadoria.</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Motoboy agendado – Custo variado, solicite orçamento:</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Nesse serviço disponibilizamos um motoboy exclusivo para sua entrega. Nesse caso podemos lhe precisar o dia e horário de entrega de seu pedido. Solicite o orçamento desse serviço pelo e-mail atendimento@scarcom.com.br ou telefone (11) 3279 5555, informando seu CEP, data e horário para entrega e lhe responderemos o mais breve possível. Esse serviço visa a agilidade na sua entrega.</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Lembramos que todos os motoboys que trabalham para nossa empresa são de nossa total confiança, podendo assim o mesmo receber o pagamento no ato da entrega.</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><h2 style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">CORREIOS</span><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"></span></h2><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Trabalhamos em parceria com os Correios. Nossas mercadorias são coletadas de segunda á sexta-feira e o código de rastreio enviado para o e-mail cadastrado do cliente no dia seguinte a coleta.</span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">As formas de envios são PAC, SEDEX e SEDEX 10. Consulte seu CEP no produto desejado para saber o valor cobrado em cada forma de envio para sua região, assim como o tempo de recebimento do mesmo.</span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><h2 style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">FRETE GRÁTIS</span><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"></span></h2><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Para os produtos que oferecemos a cortesia do frete grátis, a opção de envio será uma das formas acima citada, dependendo da sua região, que é determinado de acordo com a central de logística da nossa equipe.</span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><h2 style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">RETIRADA EM NOSSO ESCRITÓRIO COMERCIAL</span><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"></span></h2><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Liberamos a retirada de seu pedido em nosso escritório comercial mediante agendamento prévio. Lembramos que a Scarcom Informática é uma grande loja virtual e não física, para tanto é necessário o aviso prévio de sua visita.</span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><strong>É NECESSÁRIO TRAZER DOCUMENTO ORIGINAL COM FOTO PARA CADASTRO E LIBERAÇÃO DE SUA ENTRADA NA PORTARIA.</strong></span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><strong><br data-mce-bogus=\"1\"></strong></span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Será sempre um prazer recebê-lo para conhecer um pouco de nosso trabalho.</span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Estamos localizados no endereço abaixo, a 100m da estação do Metrô São Judas.</span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Endereço: Av. Fagundes Filho, 191, conj. 146 - Ed. Houston</span></p><p style=\"line-height: 1.4;\" data-mce-style=\"line-height: 1.4;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">É um prazer poder atender você, esperamos ter tirado todas as suas dúvidas. Caso ainda haja alguma, entre em contato conosco pelo e-mail atendimento@scarcom.com.br ou pelo telefone (11) 3279-5555.</span></p>"
+            },
+            "title": "Termos e condições"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

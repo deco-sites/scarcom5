@@ -1,0 +1,57 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "label": "\"Container\"",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Images/Carousel.tsx",
+        "images": [
+          {
+            "action": {
+              "variant": "primary",
+              "href": "/relogio/condor?O=OrderByReleaseDateDESC&utmi_p=_&utmi_pc=Banner%3aBanner+Principal+-+Desktop+1&utmi_cp=Condor"
+            },
+            "desktop": "https://assets.decocache.com/scarcom/455c9a0d-be1b-4f49-9589-ea7b4453b277/1742476479828-d8d614f8-f5f1-4227-b718-bc1bf6478819",
+            "alt": "Condor",
+            "mobile": "https://assets.decocache.com/scarcom/1b3f8450-af50-4cd0-8ba5-b5a6d2411801/1742476484039-5f40b489-d7d6-4315-a3e7-975280d10ba3"
+          },
+          {
+            "action": {
+              "variant": "primary",
+              "href": "/fossil%20masculino?PS=12&O=OrderByReleaseDateDESC&utmi_p=_&utmi_pc=Banner%3aBanner+Principal+-+Desktop+2&utmi_cp=Fossil"
+            },
+            "desktop": "https://assets.decocache.com/scarcom/e3592c24-d7ac-430f-b96e-85f20d8632d3/1742476486376-a0dd5aca-2f4f-4243-81ab-d4470d53cf44",
+            "alt": "Fossil",
+            "mobile": "https://assets.decocache.com/scarcom/20ba7976-4991-4112-a735-c03828598016/1742476488022-fd2df73f-ace9-4659-a48d-a04eaf5d61eb"
+          },
+          {
+            "action": {
+              "variant": "primary",
+              "href": "/relogio?PS=48&O=OrderByReleaseDateDESC"
+            },
+            "desktop": "https://assets.decocache.com/scarcom/417ff501-fa82-44a1-9997-7b1088f1f6f3/1742476489545-09639e33-9b7e-4f0f-bb12-30cba8ba2133",
+            "mobile": "https://assets.decocache.com/scarcom/417ff501-fa82-44a1-9997-7b1088f1f6f3/1742476489545-09639e33-9b7e-4f0f-bb12-30cba8ba2133",
+            "alt": "Frete Grátis "
+          },
+          {
+            "action": {
+              "variant": "primary",
+              "href": "/relogio?PS=48&O=OrderByReleaseDateDESC"
+            },
+            "desktop": "https://assets.decocache.com/scarcom/417ff501-fa82-44a1-9997-7b1088f1f6f3/1742476489545-09639e33-9b7e-4f0f-bb12-30cba8ba2133",
+            "mobile": "https://assets.decocache.com/scarcom/417ff501-fa82-44a1-9997-7b1088f1f6f3/1742476489545-09639e33-9b7e-4f0f-bb12-30cba8ba2133",
+            "alt": "Frete Grátis "
+          }
+        ],
+        "showPaginationArrows": "Desktop Only",
+        "showPaginationDots": "Always",
+        "interval": 5,
+        "preload": true
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "Carousel"
+    }
+  ]
+}

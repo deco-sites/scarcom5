@@ -1,0 +1,117 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "label": "SearchResults Global",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Product/SearchResult.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/legacy/productListingPage.ts",
+          "sort": "OrderByPriceDESC",
+          "count": 15,
+          "filters": "dynamic",
+          "pageOffset": 1
+        },
+        "variant": "aside",
+        "highlights": [],
+        "columns": {
+          "mobile": 1,
+          "desktop": 3
+        },
+        "layout": {
+          "basics": {
+            "contentAlignment": "Center",
+            "oldPriceSize": "Small",
+            "ctaVariation": "primary",
+            "ctaMode": "Add to Cart",
+            "ctaText": "Adicionar ao carrinho",
+            "mobileCtaText": "Adicionar ao carrinho"
+          },
+          "discount": {
+            "variant": "emphasis",
+            "alignHorizontal": "end",
+            "label": " "
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          },
+          "hide": {
+            "productDescription": true,
+            "skuSelector": true
+          },
+          "onMouseOver": {
+            "image": "Change image",
+            "showCta": true
+          },
+          "discountPercent": 10
+        },
+        "notFoundSection": {
+          "__resolveType": "site/sections/Miscellaneous/NotFound.tsx",
+          "hints": {
+            "hints": [],
+            "title": " "
+          },
+          "shelf": {
+            "products": {
+              "__resolveType": "vtex/loaders/legacy/productList.ts",
+              "props": {
+                "sort": "OrderByPriceDESC",
+                "collection": "10"
+              }
+            },
+            "highlights": [],
+            "layout": {
+              "headerAlignment": "center",
+              "headerfontSize": "Normal",
+              "itemsPerPage": [
+                {
+                  "screenWidth": 425,
+                  "itemsQuantity": 1
+                },
+                {
+                  "screenWidth": 700,
+                  "itemsQuantity": 4
+                }
+              ]
+            },
+            "showPaginationArrows": "Always",
+            "showPaginationDots": "Always",
+            "cardLayout": {
+              "basics": {
+                "contentAlignment": "Left",
+                "oldPriceSize": "Small",
+                "ctaVariation": "primary",
+                "ctaMode": "Go to Product Page"
+              },
+              "discount": {
+                "variant": "emphasis",
+                "alignHorizontal": "end",
+                "label": " "
+              },
+              "elementsPositions": {
+                "skuSelector": "Top",
+                "favoriteIcon": "Top right"
+              },
+              "hide": {},
+              "onMouseOver": {
+                "image": "Change image"
+              }
+            },
+            "seeMore": {
+              "url": " ",
+              "label": "  "
+            }
+          },
+          "title": "  "
+        }
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "both",
+      "label": "Search Results",
+      "withContainer": true,
+      "spacing": 0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Formas de Pagamento",
+  "path": "/institucional/formas-pagamento",
+  "sections": [
+    {
+      "__resolveType": "Analytics"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<h1 class=\"institutional-main-heading\"><span style=\"color: rgb(0, 0, 0); font-size: 24pt;\" data-mce-style=\"color: rgb(0, 0, 0); font-size: 24pt;\">FORMAS DE PAGAMENTO</span></h1><p><br data-mce-bogus=\"1\"></p><h2><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">BOLETO BANCARIO</span></h2><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Esse método, você recebe o boleto para pagamento em até 2 dias, após esse prazo o boleto é cancelado e sua compra não concretizada, sendo assim, não gera nenhum ônus ao comprador. Após o pagamento, temos 1 dia útil para confirmação de pagamento e liberação para envio.</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Depósito em Conta ou Transferência Bancária</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Trabalhamos com o Bradesco, Banco do Brasil e Itaú para essas duas modalidades de pagamento.</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Caso escolha uma dessas opções na finalização do seu pedido, você receberá um e-mail com todos os nossos dados bancários, assim como o número do seu pedido.</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Na hora do deposito ou transferência, solicitamos que informe o número de pedido na identificação do extrato. Caso sinta alguma dificuldade nesse procedimento ou tenha esquecido-se de informar o número do pedido, mande-nos um email avisando de seu depósito, para que possamos agilizar sua identificação.</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Lembrando que as contas estarão sempre em nome da Scarcom Comércio de Informática Ltda., por tanto, para sua segurança só confirme a transação após verificação desse dado importante.</span></p><p><br data-mce-bogus=\"1\"></p><h2><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">PAGAMENTO PARA PESSOA JURÍDICA</span></h2><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Além das modalidades já apresentadas, trabalhamos com boleto bancário com prazo de pagamento para 14 dias para empresas, mediante aprovação cadastral. Lembrando que esse prazo de pagamento pode ser negociado diretamente com o departamento de vendas.</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Para análise e liberação de crédito para sua empresa, envie as seguintes informações para o e-mail: <a href=\"mailto:financeiro@scarcom.com.br\" data-mce-href=\"mailto:financeiro@scarcom.com.br\">financeiro@scarcom.com.br</a>.</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><a style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Contrato Social da empresa atualizado</a>&nbsp;<a style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Referências Comerciais</a>&nbsp;<a style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Referências Bancárias</a>&nbsp;<a style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Autorização de compra para o funcionário, caso seja necessário.</a></span><br></p><p><br data-mce-bogus=\"1\"></p>"
+            },
+            "title": "Como Comprar"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ],
+      "label": "Como Comprar"
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

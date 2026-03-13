@@ -1,0 +1,10 @@
+{
+  "account": "scarcom",
+  "platform": "vtex",
+  "publicUrl": "secure.scarcom.com.br",
+  "salesChannel": "1",
+  "__resolveType": "decohub/apps/vtex.ts",
+  "defaultSegment": {
+    "channelPrivacy": "public"
+  }
+}

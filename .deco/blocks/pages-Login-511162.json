@@ -1,0 +1,20 @@
+{
+  "name": "Login",
+  "path": "/my-account/login",
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Miscellaneous/ProxyIframe.tsx",
+      "src": "/account"
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

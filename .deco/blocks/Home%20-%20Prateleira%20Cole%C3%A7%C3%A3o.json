@@ -1,0 +1,82 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "label": "\"Container\"",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "sort": "",
+            "count": 15,
+            "collection": "143"
+          }
+        },
+        "highlights": [],
+        "seeMore": {
+          "url": "/lancamentos",
+          "label": "+ ver mais"
+        },
+        "layout": {
+          "headerAlignment": "center",
+          "headerfontSize": "Normal",
+          "itemsPerPage": [
+            {
+              "screenWidth": 425,
+              "itemsQuantity": 1
+            },
+            {
+              "screenWidth": 786,
+              "itemsQuantity": 3
+            },
+            {
+              "screenWidth": 1170,
+              "itemsQuantity": 4
+            },
+            {
+              "screenWidth": 1440,
+              "itemsQuantity": 4
+            }
+          ],
+          "headerTailwind": "uppercase font-medium"
+        },
+        "showPaginationArrows": "Always",
+        "showPaginationDots": "Always",
+        "cardLayout": {
+          "basics": {
+            "contentAlignment": "Center",
+            "oldPriceSize": "Small",
+            "ctaVariation": "primary",
+            "ctaMode": "Add to Cart"
+          },
+          "discount": {
+            "variant": "emphasis",
+            "alignHorizontal": "end",
+            "label": " "
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          },
+          "hide": {
+            "productDescription": true,
+            "skuSelector": true
+          },
+          "onMouseOver": {
+            "image": "Change image",
+            "showCta": true
+          },
+          "discountPercent": 10
+        },
+        "title": "Lançamentos"
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "Prateleira",
+      "withContainer": true,
+      "spacing": 0
+    }
+  ]
+}

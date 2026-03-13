@@ -1,0 +1,41 @@
+{
+  "title": "Testimonials",
+  "layout": {
+    "variation": "Slider",
+    "headerAlignment": "center"
+  },
+  "description": "Take a look at what our customers are saying",
+  "testimonials": [
+    {
+      "text": "I can't say enough about my experience shopping at this online fashion store. The website design is not only visually stunning but also incredibly user-friendly. It's a pleasure to browse through their extensive collection of fashionable clothing and accessories. The seamless checkout process makes purchasing items a breeze, and the fast and reliable shipping ensures I receive my orders in no time.",
+      "user": {
+        "name": "Rafael Crespo",
+        "avatar": "https://assets.decocache.com/scarcom/8ee68609-2c52-4cd8-8273-c99643acac40/1742476420895-6a595043-fb5b-43b4-b6dd-bd3154e4e595"
+      },
+      "image": {
+        "src": "https://assets.decocache.com/scarcom/25725c10-0e16-4fed-bd19-70472a7d5912/1742476422096-d0a79cf6-6825-4624-884c-f30bda6c3daf"
+      }
+    },
+    {
+      "text": "Thrilled with my first Fashion purchase. Seamless process, prompt delivery with free shipping. Exceeded expectations in style and quality!",
+      "user": {
+        "name": "Tiago Gimenes",
+        "avatar": "https://assets.decocache.com/scarcom/9775e460-8f80-457a-b90c-f4f291b4c0e7/1742476423203-850df7f9-120e-4155-ae79-c76e737535ee"
+      },
+      "image": {
+        "src": "https://assets.decocache.com/scarcom/0dd49578-6731-4428-b03d-2ab5ff7533b9/1742476424362-9dc5dddc-f8b5-4f70-847b-1f91b84ad7dc"
+      }
+    },
+    {
+      "text": "Fashion is my favorite online retailer. On-trend selection, exceptional quality. Easy returns and 24/7 online support. A delightful shopping experience!",
+      "user": {
+        "name": "Maria Luiza Aires",
+        "avatar": "https://assets.decocache.com/scarcom/44c6312a-7954-4224-9d3b-7b53f3bd1ad9/1742476426924-8327a46f-bb4e-4ae8-8cf2-963d530d3066"
+      },
+      "image": {
+        "src": "https://assets.decocache.com/scarcom/8f911747-a4d1-41b9-ad74-ed4494d9061e/1742476428126-ca4c79ea-5bd9-42d3-a60a-07c99c5f45c4"
+      }
+    }
+  ],
+  "__resolveType": "site/sections/Content/Testimonials.tsx"
+}

@@ -1,0 +1,18 @@
+{
+  "__resolveType": "site/sections/Newsletter/NewsletterModal.tsx",
+  "form": {
+    "email": {
+      "placeholder": "Digite seu e-mail"
+    },
+    "name": {
+      "placeholder": "Digite seu nome"
+    },
+    "privacyContact": {},
+    "button": {
+      "variant": "primary"
+    }
+  },
+  "modalSignExpiredDate": 360,
+  "modalCloseExpiredDate": 10,
+  "text": "<p class=\"text-base text-[#585858]\">Inscreva-se em nossa newsletter e&nbsp;</p><p class=\"text-base text-[#191919]\"><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">Ganhe 10% Off em sua primeira </span></strong><br><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">compra!</span></strong></p>"
+}

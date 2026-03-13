@@ -1,0 +1,32 @@
+{
+  "title": "etset",
+  "layout": {
+    "desktop": "Symmetrical",
+    "headerAlignment": "left"
+  },
+  "banners": [
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/scarcom/41401b6c-4efb-4a3a-bccc-28f7831cc0f6/1742476454150-29dbf8d4-90c3-43f7-9b6b-4c6bda5e7835",
+      "srcDesktop": "https://assets.decocache.com/scarcom/fa614a39-9c78-4c7a-9f65-201f62cdda64/1742476537208-f7b0094f-b8f6-4806-bd43-4f4482958960"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/scarcom/e84725b2-0b62-40fc-94ee-e3ed339bbd67/1742476456710-3210eea1-5437-4f19-8327-8b8fa4edfc45"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/scarcom/097819f8-1906-459b-8db9-4f319bd7c12e/1742476459451-1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/scarcom/55f8428c-33d8-46a9-ad88-6c8ec80d6daa/1742476462431-a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+    }
+  ],
+  "description": "Discover the collections of the season",
+  "__resolveType": "site/sections/Images/ImageGallery.tsx"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Formas de Pagamento",
+  "path": "/institucional/formas-de-pagamento",
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<p>Entregamos em todo o Brasil.&nbsp;</p><p>Você pode verificar a disponibilidade, o valor do frete e prazo de entrega no ato da<br>compra.</p><p>O frete é calculado automaticamente pelo nosso sistema, em função do cálculo do peso, do<br>local de entrega e de acordo com o método de envio utilizado. A partir do CEP informado, o<br>sistema apresenta as opções de envio disponíveis para a sua região</p><p>Enviamos os produtos através de transportadora. Os endereços não atendidos pela mesma<br>são re-despachados pelos correios.</p><p>Aproveite o frete grátis em todas as compras a partir de R$550 na modalidade<br>ECONÔMICA.</p><p><strong><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">Prazo de entrega</span></strong><br>O prazo para o recebimento dos produtos adquiridos através da nossa loja virtual é<br>informado na modalidade de entrega escolhida na hora da compra. O prazo passa a contar<br>a partir do 1º dia útil seguinte ao dia da confirmação do pagamento.</p><p>Reforçamos que os prazos são estimados. Dessa forma, é possível que variem por razões<br>logísticas ou de força maior. Assim que o pedido for postado, o cliente receberá um código<br>de rastreamento para acompanhar o processo de entrega.</p><p>Nos comprometemos a cumprir os prazos previstos neste regulamento. Porém, por motivos<br>alheios à nossa vontade, podem surgir pequenos imprevistos. Nesses casos, tentaremos<br>sempre avisar aos clientes sobre eventuais atrasos.</p><p>Caso o pedido seja extraviado antes da entrega no endereço de cadastro, o reenvio ou<br>cancelamento do pedido serão realizados após a confirmação do extravio por parte das<br>transportadoras, o que acontece em um prazo de 5 a 7 dias úteis.</p><p>As entregas são feitas durante o horário comercial, de segunda a sexta, das 9h às 18h. É<br>preciso que alguém esteja no endereço para receber o pedido.&nbsp;</p><p>Não fazemos agendamento de entregas.</p><p>Caso o endereço do destinatário seja considerado pelos Correios área de risco, o processo<br>de recebimento da mercadoria deverá ser através de coleta em uma agência dos Correios<br>mais próxima da residência destinatária.</p><p>Ao receber o pedido confira se a embalagem não está violada, se o nome de destinatário<br>está correto e, por fim, se os produtos correspondem ao que foi solicitado em nosso site.<br>Caso tenha alguma divergência, entre em contato com o SAC através do formulário<br>disponível em nossa Central de Atendimento.</p><p><br data-mce-bogus=\"1\"></p>"
+            },
+            "title": "Formas de Pagamento"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,82 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "label": "\"Container\"",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts",
+          "crossSelling": "whosawalsosaw",
+          "count": 10,
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
+        },
+        "title": "Os mais vendidos",
+        "highlights": [],
+        "seeMore": {
+          "url": " ",
+          "label": " "
+        },
+        "layout": {
+          "headerAlignment": "center",
+          "headerfontSize": "Normal",
+          "itemsPerPage": [
+            {
+              "screenWidth": 425,
+              "itemsQuantity": 1
+            },
+            {
+              "screenWidth": 786,
+              "itemsQuantity": 3
+            },
+            {
+              "screenWidth": 1170,
+              "itemsQuantity": 4
+            },
+            {
+              "screenWidth": 1440,
+              "itemsQuantity": 4
+            }
+          ],
+          "headerTailwind": "uppercase font-medium"
+        },
+        "showPaginationArrows": "Always",
+        "showPaginationDots": "Always",
+        "cardLayout": {
+          "basics": {
+            "contentAlignment": "Center",
+            "oldPriceSize": "Small",
+            "ctaVariation": "primary",
+            "ctaMode": "Add to Cart"
+          },
+          "discount": {
+            "variant": "emphasis",
+            "alignHorizontal": "end",
+            "label": " "
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          },
+          "hide": {
+            "productDescription": true
+          },
+          "onMouseOver": {
+            "image": "Change image",
+            "showCta": false,
+            "showSkuSelector": false
+          },
+          "discountPercent": 10
+        }
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "withContainer": true,
+      "label": "ProductShelf"
+    }
+  ]
+}

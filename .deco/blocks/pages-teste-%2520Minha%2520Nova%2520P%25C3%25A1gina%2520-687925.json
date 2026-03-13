@@ -1,0 +1,136 @@
+{
+  "name": "datasheet.westerndigital.hd",
+  "path": "/datasheet.westerndigital.hd",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header Globar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Images/ImageGallery.tsx",
+        "itemPerPageMobile": 1,
+        "itemPerPageDesktop": 1,
+        "images": [
+          {
+            "backgroundColorHover": "neutral",
+            "borderRadius": {
+              "mobile": "sm",
+              "desktop": "sm"
+            },
+            "borderSize": {
+              "mobile": "0",
+              "desktop": "0"
+            },
+            "image": "https://assets.decocache.com/scarcom/348558a1-ec12-4b0d-a02b-057804b688ef/WesterDigital.Datasheet.HD.2.png",
+            "imageMobile": "https://assets.decocache.com/scarcom/348558a1-ec12-4b0d-a02b-057804b688ef/WesterDigital.Datasheet.HD.2.png"
+          },
+          {
+            "backgroundColorHover": "neutral",
+            "borderRadius": {
+              "mobile": "sm",
+              "desktop": "sm"
+            },
+            "borderSize": {
+              "mobile": "0",
+              "desktop": "0"
+            },
+            "image": "https://assets.decocache.com/scarcom/7997b908-d3ff-422e-9f82-5577eeb1a374/WesterDigital.Datasheet.HD.3.png",
+            "imageMobile": "https://assets.decocache.com/scarcom/7997b908-d3ff-422e-9f82-5577eeb1a374/WesterDigital.Datasheet.HD.3.png"
+          },
+          {
+            "backgroundColorHover": "neutral",
+            "borderRadius": {
+              "mobile": "sm",
+              "desktop": "sm"
+            },
+            "borderSize": {
+              "mobile": "0",
+              "desktop": "0"
+            },
+            "image": "https://assets.decocache.com/scarcom/97652264-5d79-4eec-8c7b-49d2fb7d559c/WesterDigital.Datasheet.HD.4.png",
+            "imageMobile": "https://assets.decocache.com/scarcom/97652264-5d79-4eec-8c7b-49d2fb7d559c/WesterDigital.Datasheet.HD.4.png",
+            "preload": true
+          },
+          {
+            "backgroundColorHover": "neutral",
+            "borderRadius": {
+              "mobile": "sm",
+              "desktop": "sm"
+            },
+            "borderSize": {
+              "mobile": "0",
+              "desktop": "0"
+            },
+            "image": "https://assets.decocache.com/scarcom/80b90419-981f-46f0-a0d8-81f5facb60cf/WesterDigital.Datasheet.HD.5.png",
+            "imageMobile": "https://assets.decocache.com/scarcom/80b90419-981f-46f0-a0d8-81f5facb60cf/WesterDigital.Datasheet.HD.5.png",
+            "preload": true
+          },
+          {
+            "backgroundColorHover": "neutral",
+            "borderRadius": {
+              "mobile": "sm",
+              "desktop": "sm"
+            },
+            "borderSize": {
+              "mobile": "0",
+              "desktop": "0"
+            },
+            "image": "https://assets.decocache.com/scarcom/644a0ce1-d439-4772-94be-16e24c82be76/WesterDigital.Datasheet.HD.6.png",
+            "imageMobile": "https://assets.decocache.com/scarcom/644a0ce1-d439-4772-94be-16e24c82be76/WesterDigital.Datasheet.HD.6.png",
+            "preload": true
+          },
+          {
+            "backgroundColorHover": "neutral",
+            "borderRadius": {
+              "mobile": "sm",
+              "desktop": "sm"
+            },
+            "borderSize": {
+              "mobile": "0",
+              "desktop": "0"
+            },
+            "image": "https://assets.decocache.com/scarcom/4f414f78-bb73-4b6c-8698-9ac6e6851bda/WesterDigital.Datasheet.HD.7.png",
+            "imageMobile": "https://assets.decocache.com/scarcom/4f414f78-bb73-4b6c-8698-9ac6e6851bda/WesterDigital.Datasheet.HD.7.png",
+            "preload": true
+          },
+          {
+            "backgroundColorHover": "neutral",
+            "borderRadius": {
+              "mobile": "sm",
+              "desktop": "sm"
+            },
+            "borderSize": {
+              "mobile": "0",
+              "desktop": "0"
+            },
+            "image": "https://assets.decocache.com/scarcom/e4faaa7f-60cc-4772-9d6e-8530c50c9472/WesterDigital.Datasheet.HD.8.png",
+            "imageMobile": "https://assets.decocache.com/scarcom/e4faaa7f-60cc-4772-9d6e-8530c50c9472/WesterDigital.Datasheet.HD.8.png",
+            "preload": true
+          },
+          {
+            "backgroundColorHover": "neutral",
+            "borderRadius": {
+              "mobile": "sm",
+              "desktop": "sm"
+            },
+            "borderSize": {
+              "mobile": "0",
+              "desktop": "0"
+            },
+            "image": "https://assets.decocache.com/scarcom/f44be882-6f3a-45af-a159-468a37ccb830/WesterDigital.Datasheet.HD.10.png",
+            "imageMobile": "https://assets.decocache.com/scarcom/f44be882-6f3a-45af-a159-468a37ccb830/WesterDigital.Datasheet.HD.10.png",
+            "preload": true
+          }
+        ]
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

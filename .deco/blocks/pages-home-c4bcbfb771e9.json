@@ -1,0 +1,66 @@
+{
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "Home - Carousel"
+    },
+    {
+      "__resolveType": "Banner Secundário - Categorias"
+    },
+    {
+      "__resolveType": "Home - Prateleira Coleção"
+    },
+    {
+      "__resolveType": "Banners Terciário - Grid"
+    },
+    {
+      "__resolveType": "Instagram - Imagens"
+    },
+    {
+      "__resolveType": "Sobre a loja - InfoCard"
+    },
+    {
+      "__resolveType": "Footer Global"
+    },
+    {
+      "__resolveType": "LgpdModal"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Scarcom",
+      "titleTemplate": "Scarcom",
+      "description": "Scarcom.com.br. Confira nossa linha de Computadores, Redes, Memórias, Placas de Vídeo, HD, SSD, Roteadores e toda linha completa para empresa.",
+      "descriptionTemplate": "Scarcom.com.br. Confira nossa linha de Computadores, Redes, Memórias, Placas de Vídeo, HD, SSD, Roteadores e toda linha completa para empresa.",
+      "image": "https://assets.decocache.com/scarcom/b4b988c8-8665-4b34-9845-44cb0a02cee5/1742476378729-f72f3e1e-d32f-4089-aeee-d7bd4988f573",
+      "favicon": "https://assets.decocache.com/scarcom/99b6a5e8-19dd-4763-8f24-e8e5d80caed9/1742476381128-8fc15b20-982f-4d3b-85f8-00df57fd453e",
+      "canonical": "https://www.scarcom.com.br/"
+    },
+    {
+      "__resolveType": "site/sections/Newsletter/NewsletterModal.tsx",
+      "form": {
+        "email": {
+          "placeholder": "Digite seu e-mail"
+        },
+        "name": {
+          "placeholder": "Digite seu nome"
+        },
+        "button": {
+          "label": "CADASTRAR"
+        },
+        "privacyContact": {
+          "preLabel": " "
+        }
+      },
+      "modalSignExpiredDate": 36,
+      "modalCloseExpiredDate": 10,
+      "logo": "https://assets.decocache.com/scarcom/b4b988c8-8665-4b34-9845-44cb0a02cee5/1742476378729-f72f3e1e-d32f-4089-aeee-d7bd4988f573",
+      "text": "<p><br data-mce-bogus=\"1\"></p>"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Home",
+  "path": "/",
+  "label": "\"Container\""
+}

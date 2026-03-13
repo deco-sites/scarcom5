@@ -1,0 +1,803 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Header/TopNavBar.tsx",
+        "alerts": [
+          {
+            "idIcon": "",
+            "textAlert": "Frete grátis acima de R$ 450",
+            "textColor": "#ffffff",
+            "alt": "Frete grátis acima de R$ 450"
+          },
+          {
+            "idIcon": "",
+            "textAlert": "Frete grátis acima de R$ 450",
+            "textColor": "#ffffff",
+            "alt": "Frete grátis acima de R$ 450"
+          },
+          {
+            "idIcon": "",
+            "textAlert": "Frete grátis acima de R$ 450",
+            "textColor": "#ffffff",
+            "alt": "Frete grátis acima de R$ 450"
+          },
+          {
+            "idIcon": "",
+            "textAlert": "Frete grátis acima de R$ 450",
+            "textColor": "#ffffff",
+            "alt": "Frete grátis acima de R$ 450"
+          }
+        ],
+        "interval": 5
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "Topbar",
+      "backgroundColor": "#F99400"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Header/HeaderLayout.tsx",
+        "logo": {
+          "image": "https://assets.decocache.com/scarcom/a188a542-2ca2-478e-bacc-f6a28c0a2c3d/1742476359184-1f6dc342-05a2-4692-87d3-22a19abac5ca",
+          "width": 150,
+          "height": 50
+        },
+        "navItems": [],
+        "minicart": {
+          "desktop": {
+            "buttonMode": "primary"
+          },
+          "goToCartLabel": "Ir para o Carrinho",
+          "mobile": {
+            "buttonMode": "primary"
+          },
+          "showClearButton": false,
+          "buttonMode": "secondary"
+        },
+        "searchbar": {
+          "cardLayout": {
+            "onMouseOver": {
+              "showCta": false
+            },
+            "hide": {
+              "skuSelector": true,
+              "productDescription": true,
+              "cta": true
+            },
+            "discount": {
+              "label": "off",
+              "variant": "secondary"
+            },
+            "basics": {
+              "ctaMode": "Add to Cart",
+              "mobileCtaText": "Adicionar ao carrinho",
+              "contentAlignment": "Center",
+              "ctaText": "Adicionar ao carrinho"
+            },
+            "elementsPositions": {}
+          },
+          "placeholder": "Digite sua busca aqui..."
+        }
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "Header",
+      "withContainer": true
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Header/HeaderNavMenu.tsx",
+        "navItems": [
+          {
+            "href": "/",
+            "label": "Todas as categorias",
+            "variant": "AllCategories",
+            "children": [
+              {
+                "href": "/mercearia",
+                "label": "Mercearia",
+                "variant": "CommonChild",
+                "children": [
+                  {
+                    "href": "/mercearia/acucar-e-adocantes",
+                    "label": "Açucar e Adoçantes",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/mercearia/agua",
+                    "label": "Água",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/mercearia/cafe",
+                    "label": "Café",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/mercearia/confeitaria",
+                    "label": "Confeitaria",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/mercearia/doces",
+                    "label": "Doces",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/mercearia/isqueiros",
+                    "label": "Isqueiros",
+                    "variant": "CommonChild",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "href": "/limpeza",
+                "label": "Limpeza",
+                "variant": "CommonChild",
+                "children": [
+                  {
+                    "href": "/limpeza/higiene",
+                    "label": "Higiene",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/limpeza/panos",
+                    "label": "Panos",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/limpeza/produtos-de-limpeza",
+                    "label": "Produtos de Limpeza",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/limpeza/utensilios",
+                    "label": "Utensilios",
+                    "variant": "CommonChild",
+                    "children": []
+                  }
+                ],
+                "highlighted": false
+              },
+              {
+                "href": "/faber-castell-premium",
+                "label": "Faber-Castell Premium",
+                "variant": "CommonChild",
+                "children": [
+                  {
+                    "href": "/faber-castell-premium/art---graphic",
+                    "label": "Art & Graphic",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/faber-castell-premium/creative-studio",
+                    "label": "Creative Studio",
+                    "variant": "CommonChild",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "Outras",
+                "variant": "CommonChild",
+                "children": [
+                  {
+                    "href": "/papelaria",
+                    "label": "Papelaria",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/escritorio",
+                    "label": "Escritório",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/informatica",
+                    "label": "Informática",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/artesanato",
+                    "label": "Artesanato",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/festas",
+                    "label": "Festas",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/descartaveis",
+                    "label": "Descartáveis",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/lazer-e-utilidades",
+                    "label": "Lazer e Utilidades",
+                    "variant": "CommonChild",
+                    "children": []
+                  },
+                  {
+                    "href": "/atacado",
+                    "label": "Atacado",
+                    "variant": "CommonChild",
+                    "children": []
+                  }
+                ]
+              }
+            ],
+            "highlighted": true
+          },
+          {
+            "href": "/papelaria",
+            "label": "Papelaria",
+            "variant": "CommonChild",
+            "children": [
+              {
+                "href": "/papelaria/apontadores?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Apontadores",
+                "label": "Apontadores",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/apresentacao?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Apresentacao",
+                "label": "Apresentação",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/arte-escolar?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Arte+Escolar",
+                "label": "Arte Escolar",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/bobinas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Bobinas",
+                "label": "Bobinas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/cadernos-blocos-e-agendas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Cadernos%2c+blocos+e+agendas",
+                "label": "Cadernos, blocos e agendas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/colas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Colas",
+                "label": "Colas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/envelopes?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Envelopes",
+                "label": "Envelopes",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/escrita-e-corretivo?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Escrita+e+corretivo",
+                "label": "Escrita e corretivo",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/etiquetas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Etiquetas",
+                "label": "Etiquetas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/fitas-adesivas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Fitas+Adesivas",
+                "label": "Fitas adesivas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/formularios-e-impressos?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Formulários+e+impressos",
+                "label": "Formulários e impressos",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/mochilas-estojos-e-lancheiras?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Mochilas%2c+estojos+e+lancheiras",
+                "label": "Mochilas, estojos e lancheiras",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/papel?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Papel",
+                "label": "Papel",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/pastas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Pastas",
+                "label": "Pastas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/reguas-e-compassos?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Réguas+e+compassos",
+                "label": "Réguas e compassos",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/tesouras-e-estiletes?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Tesouras+e+Estiletes",
+                "label": "Tesouras e Estiletes",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/blocos-autoadesivos-e-marcadores-de-pagina?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Blocos+autoadesivos+e+marcadores+de+página",
+                "label": "Blocos autoadesivos e marcadores de página",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/papelaria/outros?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Outros",
+                "label": "Outros",
+                "variant": "CommonChild",
+                "children": []
+              }
+            ]
+          },
+          {
+            "href": "/escritorio",
+            "label": "Escritório",
+            "variant": "CommonChild",
+            "children": [
+              {
+                "href": "/escritorio/acessorios?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Acessórios",
+                "label": "Acessórios",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/escritorio/agendas-e-indices?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Agendas+e+Índices",
+                "label": "Agendas e Índices",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/escritorio/apresentacao?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Apresentação",
+                "label": "Apresentação",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/escritorio/escrita-e-corretivo?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Escrita+e+Corretivo",
+                "label": "Escrita e Corretivo",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/escritorio/moveis?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Móveis",
+                "label": "Móveis",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/escritorio/organizacao?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Organização",
+                "label": "Organização",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/escritorio/papel?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Papel",
+                "label": "Papel",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/escritorio/pastas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Pastas",
+                "label": "Pastas",
+                "variant": "CommonChild",
+                "children": []
+              }
+            ]
+          },
+          {
+            "href": "/informatica",
+            "label": "Informática",
+            "variant": "CommonChild",
+            "children": [
+              {
+                "href": "/informatica/audio?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Áudio",
+                "label": "Áudio",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/calculadoras?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Calculadoras",
+                "label": "Calculadoras",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/cd-dvd?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=CD%2FDVD",
+                "label": "CD/DVD",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/eletronicos?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Eletrônicos",
+                "label": "Eletrônicos",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/estabilizadores?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Estabilizadores",
+                "label": "Estabilizadores",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/impressoras?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Impressoras",
+                "label": "Impressoras",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/monitores?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Monitores",
+                "label": "Monitores",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/mouse-e-teclado?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Mouse+e+Teclado",
+                "label": "Mouse e teclado",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/pen-drive?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Pen+Drive",
+                "label": "Pen Drive",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/cartuchos-e-fitas-para-impressora?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Cartuchos+e+Fitas+para+Impressora",
+                "label": "Cartuchos e fitas para impressora",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/informatica/acessorios?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Acessórios",
+                "label": "Acessórios",
+                "variant": "CommonChild",
+                "children": []
+              }
+            ]
+          },
+          {
+            "href": "/artesanato",
+            "label": "Artesanato",
+            "variant": "CommonChild",
+            "children": [
+              {
+                "href": "/artesanato/acessorios?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Acessórios",
+                "label": "Acessórios",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/artesanato/argilas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Argilas",
+                "label": "Argilas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/artesanato/auxiliares?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Auxiliares",
+                "label": "Auxiliares",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/artesanato/canetas-para-tecido?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Canetas+para+Tecido",
+                "label": "Canetas para Tecido",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/artesanato/cavalete-para-pintura?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Cavalete+para+Pintura",
+                "label": "Cavalete para pintura",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/artesanato/colas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Colas",
+                "label": "Colas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/artesanato/paineis-e-telas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Painéis+e+Telas",
+                "label": "Painéis e Telas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/artesanato/pinceis-e-rolos?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Pincéis+e+Rolos",
+                "label": "Pincéis e Rolos",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/artesanato/tintas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Tintas",
+                "label": "Tintas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/artesanato/verniz?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Verniz",
+                "label": "Verniz",
+                "variant": "CommonChild",
+                "children": []
+              }
+            ]
+          },
+          {
+            "href": "/festas",
+            "label": "Festas",
+            "variant": "CommonChild",
+            "children": [
+              {
+                "href": "/festas/acessorios?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Acessórios",
+                "label": "Acessórios",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/festas/baloes?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Balões",
+                "label": "Balões",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/festas/bingo?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Bingo",
+                "label": "Bingo",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/festas/decoracao?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Decoração",
+                "label": "Decoração",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/festas/descartaveis?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Descartáveis",
+                "label": "Descartáveis",
+                "variant": "CommonChild",
+                "children": []
+              }
+            ]
+          },
+          {
+            "href": "/descartaveis",
+            "label": "Descartáveis",
+            "variant": "CommonChild",
+            "children": [
+              {
+                "href": "/descartaveis/bandejas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Bandejas",
+                "label": "Bandejas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/bobinas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Bobinas",
+                "label": "Bobinas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/copos-tacas-e-tampas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Copos%2C+Taças+e+Tampas",
+                "label": "Copos, taças e tampas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/dispensers?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Dispensers",
+                "label": "Dispensers",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/embalagens?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Embalagens",
+                "label": "Embalagens",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/espetos-e-palitos?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Espetos+e+Palitos",
+                "label": "Espetos e palitos",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/filme-plastico?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Filme+Plástico",
+                "label": "Filme Plástico",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/luvas-toucas-e-mascaras?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Luvas%2C+Toucas+e+Máscaras",
+                "label": "Luvas, toucas e máscaras",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/marmitex?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Marmitex",
+                "label": "Marmitex",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/papel?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Papel",
+                "label": "Papel",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/potes?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Potes",
+                "label": "Potes",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/pratos?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Pratos",
+                "label": "Pratos",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/sacos-e-sacolas?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Sacos+e+Sacolas",
+                "label": "Sacos e sacolas",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/talheres?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Talheres",
+                "label": "Talheres",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/descartaveis/outros?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Outros",
+                "label": "Outros",
+                "variant": "CommonChild",
+                "children": []
+              }
+            ]
+          },
+          {
+            "href": "/lazer-e-utilidades",
+            "label": "Lazer e Utilidades",
+            "variant": "CommonChild",
+            "children": [
+              {
+                "href": "/lazer-e-utilidades/utilidades?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Utilidades",
+                "label": "Utilidades",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/praia-e-piscina?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Praia+e+Piscina",
+                "label": "Praia e piscina",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/esportes-e-camping?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Esportes+e+Camping",
+                "label": "Esportes e Camping",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/suportes-e-ganchos?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Suportes+e+Ganchos",
+                "label": "Suportes e ganchos",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/instrumentos-musicais?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Instrumentos+Musicais",
+                "label": "Instrumentos musicais",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/bebedouros-e-purificadores?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Bebedouros+e+Purificadores",
+                "label": "Bebedouros e purificadores",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/jogos?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Jogos",
+                "label": "Jogos",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/casa-e-decoracao?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Casa+e+Decoração",
+                "label": "Casa e Decoração",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/brinquedos",
+                "label": "Brinquedos",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/instrumentos-musicais",
+                "label": "Instrumentos Musicais",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/lazer-e-utilidades/perfumaria-e-cosmeticos",
+                "label": "Perfumaria e Cosméticos",
+                "variant": "CommonChild",
+                "children": []
+              }
+            ]
+          },
+          {
+            "href": "/atacado",
+            "label": "Atacado",
+            "variant": "CommonChild",
+            "children": [
+              {
+                "href": "/atacado/descartaveis?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Descartáveis",
+                "label": "Descartáveis",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/atacado/papelaria-e-escritorio?&utmi_p=_&utmi_pc=Navegador+Todos+Departamento&utmi_cp=Papelaria+e+Escritório",
+                "label": "Papelaria e Escritório",
+                "variant": "CommonChild",
+                "children": []
+              },
+              {
+                "href": "/atacado/compre-junto",
+                "label": "Compre junto",
+                "variant": "CommonChild",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "HeaderNavMenu"
+    }
+  ],
+  "label": "\"Container\""
+}

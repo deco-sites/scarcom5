@@ -1,0 +1,422 @@
+{
+  "name": "task 11001 n1 pdp",
+  "path": "/:slug/p/2",
+  "default": {
+    "possiblePaths": []
+  },
+  "sections": [
+    {
+      "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
+      "jsonLD": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      }
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "site/sections/Container.tsx",
+            "label": "\"Container\"",
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Product/ProductDetails.tsx",
+                  "page": {
+                    "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+                    "slug": {
+                      "__resolveType": "website/functions/requestToParam.ts",
+                      "param": "slug"
+                    }
+                  },
+                  "discount": {
+                    "variant": "emphasis",
+                    "alignHorizontal": "end",
+                    "label": " ",
+                    "columnStart": 2
+                  },
+                  "highlights": [],
+                  "variant": "slider",
+                  "shipmentPolitics": {
+                    "link": "/institucional/formas-de-entrega ",
+                    "label": "Confira nossa política de frete e entregas"
+                  },
+                  "shareableNetworks": [
+                    "Facebook",
+                    "Email"
+                  ],
+                  "productBenefits": [
+                    {
+                      "label": "<p>Acumule pontos usando o cupom: <strong>LIVELO</strong></p>",
+                      "icon": "https://assets.decocache.com/scarcom/37abe21e-c647-4733-a033-9c52e3f53fa3/1742476370431-e9398105-08e5-4c16-ade5-8d6ab5ddfb7a",
+                      "name": "livelo"
+                    },
+                    {
+                      "name": "10% de desconto",
+                      "icon": "https://assets.decocache.com/scarcom/feb5e50a-591b-45df-ab1e-31dd7b888be5/1742476372178-1bea79af-265e-4dfe-b7cd-673c965e313d",
+                      "label": "<p><strong>10% de desconto&nbsp; </strong>na sua primeira compra</p>"
+                    },
+                    {
+                      "icon": "https://assets.decocache.com/scarcom/8a94aaf3-590a-4ac9-b459-7cb98938ff37/1742476376023-f82cdbd7-dfef-420e-8898-30581be1c567",
+                      "name": "Frete grátis acima de R$ 450",
+                      "label": "<p><strong>Frete grátis&nbsp;</strong>acima de R$ 450</p>"
+                    },
+                    {
+                      "icon": "https://assets.decocache.com/scarcom/6d4141fc-1568-4a15-adc1-0510ec580c44/1742476377497-1db406cb-ab3f-4bcc-8f34-22709bbac4c1",
+                      "name": "5% de desconto pagando com PIX",
+                      "label": "<p><strong>5% de desconto</strong> pagando com <strong>PIX</strong></p>"
+                    }
+                  ],
+                  "notFoundSection": {
+                    "__resolveType": "site/sections/Product/ProductNotFound.tsx",
+                    "shelf": {
+                      "products": {
+                        "__resolveType": "vtex/loaders/legacy/productList.ts",
+                        "props": {
+                          "sort": "OrderByPriceDESC"
+                        }
+                      },
+                      "highlights": [],
+                      "layout": {
+                        "headerAlignment": "center",
+                        "headerfontSize": "Normal",
+                        "itemsPerPage": [
+                          {
+                            "screenWidth": 425,
+                            "itemsQuantity": 2
+                          },
+                          {
+                            "screenWidth": 786,
+                            "itemsQuantity": 3
+                          },
+                          {
+                            "screenWidth": 1170,
+                            "itemsQuantity": 4
+                          },
+                          {
+                            "screenWidth": 1440,
+                            "itemsQuantity": 4
+                          }
+                        ]
+                      },
+                      "showPaginationArrows": "Always",
+                      "showPaginationDots": "Always",
+                      "cardLayout": {
+                        "basics": {
+                          "contentAlignment": "Center",
+                          "oldPriceSize": "Small",
+                          "ctaVariation": "primary",
+                          "ctaMode": "Add to Cart",
+                          "ctaText": "Adicionar ao carrinho",
+                          "mobileCtaText": "Adicionar ao carrinho"
+                        },
+                        "discount": {
+                          "variant": "emphasis",
+                          "alignHorizontal": "end",
+                          "label": " "
+                        },
+                        "elementsPositions": {
+                          "skuSelector": "Top",
+                          "favoriteIcon": "Top right"
+                        },
+                        "hide": {
+                          "productDescription": true,
+                          "skuSelector": true
+                        },
+                        "onMouseOver": {
+                          "image": "Change image",
+                          "showCta": true
+                        }
+                      },
+                      "seeMore": {
+                        "url": " ",
+                        "label": " "
+                      },
+                      "title": "Sugestões para você"
+                    },
+                    "title": "404",
+                    "subTitle": "Página não encontrada",
+                    "description": "<p><br data-mce-bogus=\"1\"></p>",
+                    "image": "https://assets.decocache.com/scarcom/d03cf360-2ef5-44d2-89fb-ac848bcf87bd/1742476361395-c2ae8f96-74d9-4d4b-8e42-02939499160d"
+                  },
+                  "discountPercent": 10,
+                  "elements": [
+                    {
+                      "text": "Atendimento personalizado",
+                      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/9231f1c5-ac5a-4d97-842d-52d79d29d8ce/fon-icone.svg"
+                    },
+                    {
+                      "text": "faturamento e prazo para empresas",
+                      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/73a1b103-2259-44a8-afd4-a07113b3298e/file-icone.svg"
+                    },
+                    {
+                      "text": "Desde 2009 levando solução para nossos clientes",
+                      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/8aed5f50-c0f6-478c-8c1e-711ddb14d689/idea-icone.svg"
+                    }
+                  ]
+                },
+                "shadow": "none",
+                "overFlow": "overflow-none",
+                "verticalSpacing": "top",
+                "label": "ProductDetails",
+                "withContainer": true
+              }
+            ]
+          },
+          "rule": {
+            "__resolveType": "website/matchers/random.ts",
+            "traffic": 0.5
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Container.tsx",
+            "label": "\"Container\"",
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Product/ProductDetails.tsx",
+                  "page": {
+                    "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+                    "slug": {
+                      "__resolveType": "website/functions/requestToParam.ts",
+                      "param": "slug"
+                    }
+                  },
+                  "discount": {
+                    "variant": "emphasis",
+                    "alignHorizontal": "end",
+                    "columnStart": 2,
+                    "label": " "
+                  },
+                  "highlights": [],
+                  "variant": "slider",
+                  "shipmentPolitics": {
+                    "label": "Confira nossa política de frete e entregas",
+                    "link": "/institucional/formas-de-entrega "
+                  },
+                  "shareableNetworks": [
+                    "Facebook",
+                    "Email",
+                    "WhatsApp"
+                  ],
+                  "notFoundSection": {
+                    "__resolveType": "site/sections/Product/ProductNotFound.tsx",
+                    "title": "404",
+                    "subTitle": "Página não encontrada",
+                    "description": "<p>A página que você esta procurando não<br>existe ou não esta mais disponível em<br>nosso site.</p>",
+                    "image": "https://assets.decocache.com/scarcom/a188a542-2ca2-478e-bacc-f6a28c0a2c3d/1742476359184-1f6dc342-05a2-4692-87d3-22a19abac5ca",
+                    "shelf": {
+                      "products": {
+                        "__resolveType": "vtex/loaders/legacy/productList.ts",
+                        "props": {
+                          "sort": "OrderByPriceDESC"
+                        }
+                      },
+                      "highlights": [],
+                      "layout": {
+                        "headerAlignment": "center",
+                        "headerfontSize": "Normal",
+                        "itemsPerPage": [
+                          {
+                            "screenWidth": 425,
+                            "itemsQuantity": 2
+                          },
+                          {
+                            "screenWidth": 786
+                          },
+                          {
+                            "screenWidth": 1170,
+                            "itemsQuantity": 4
+                          },
+                          {
+                            "screenWidth": 1440,
+                            "itemsQuantity": 4
+                          }
+                        ]
+                      },
+                      "showPaginationArrows": "Always",
+                      "showPaginationDots": "Always",
+                      "cardLayout": {
+                        "basics": {
+                          "contentAlignment": "Center",
+                          "oldPriceSize": "Small",
+                          "ctaVariation": "primary",
+                          "ctaMode": "Add to Cart",
+                          "ctaText": "Adicionar ao carrinho",
+                          "mobileCtaText": "Adicionar ao carrinho"
+                        },
+                        "discount": {
+                          "variant": "emphasis",
+                          "alignHorizontal": "end",
+                          "label": "de"
+                        },
+                        "elementsPositions": {
+                          "skuSelector": "Top",
+                          "favoriteIcon": "Top right"
+                        },
+                        "hide": {},
+                        "onMouseOver": {
+                          "image": "Change image"
+                        }
+                      },
+                      "seeMore": {
+                        "url": "/",
+                        "label": "/"
+                      },
+                      "title": "Sugestões para você"
+                    }
+                  },
+                  "discountPercent": 10
+                },
+                "shadow": "none",
+                "overFlow": "overflow-none",
+                "verticalSpacing": "top",
+                "label": "ProductDetails",
+                "withContainer": true
+              }
+            ]
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductTipBar.tsx",
+      "elements": [
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/d4542ef1-6acf-41fb-8746-d56e8986e338/fon-icone.svg",
+          "text": "<p>Atendimento </p><p>personalizado</p>"
+        },
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/fc9b2e74-7b96-4d46-af81-67cc97ba5dbe/file-icone.svg",
+          "text": "<p>faturamento e prazo</p><p>para empresas</p>"
+        },
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/d73fb092-b6f4-4040-94f8-7a5a25975f32/idea-icone.svg",
+          "text": "<p>Desde 2009 levando solução </p><p>para nossos clientes</p>"
+        },
+        {
+          "text": "Compra Segura",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/54226807-8c49-4804-9182-316113f7d4de/cart-icone.svg"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductAdvancedDetails.tsx",
+      "page": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "advancedDetailList": [
+        {
+          "contentDetails": [
+            {
+              "alt": "Imagem Simples",
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor.</p><p></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor.</p>",
+              "title": "Lorem ipsum dolor sit amet",
+              "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/36309366-b86c-43af-94f3-c5f075e9f79f/Image-1.png",
+              "mediaType": "VIDEO",
+              "videoHtml": "<iframe width='100%' height='100%' src=\"https://www.youtube.com/embed/Cj7C7ambQA4?si=l8nZRM19eZbJ49AG\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            },
+            {
+              "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/3a9d7455-3d5b-4239-b8d1-d4a7a3444610/Image-2.png",
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor.</p><p></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor.</p>",
+              "title": "Lorem ipsum dolor sit amet",
+              "alt": "Alt",
+              "mediaType": "IMAGE"
+            },
+            {
+              "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/001a421c-eae2-4090-a337-743c0cccd422/Image-3.png",
+              "alt": "Image Alt",
+              "text": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor. Donec luctus tortor sed urna sollicitudin, convallis luctus dolor lobortis. Proin elit felis, dictum et enim in, dapibus fringilla lectus.&nbsp;</span></p>",
+              "title": "Lorem ipsum dolor sit amet",
+              "mediaType": "IMAGE"
+            }
+          ],
+          "productId": "155885"
+        },
+        {
+          "contentDetails": [
+            {
+              "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/36309366-b86c-43af-94f3-c5f075e9f79f/Image-1.png",
+              "alt": "Texto Simples Exemplo",
+              "title": "Lorem ipsum dolor sit amet",
+              "text": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor. Donec luctus tortor sed urna sollicitudin, convallis luctus dolor lobortis. Proin elit felis, dictum et enim in, dapibus fringilla lectus.&nbsp;</span></p><p></p><p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor. Donec luctus tortor sed urna sollicitudin, convallis luctus dolor lobortis. Proin elit felis, dictum et enim in, dapibus fringilla lectus.&nbsp;</span></p>",
+              "mediaType": "VIDEO",
+              "videoHtml": "<iframe width='100%' height='100%' src=\"https://www.youtube.com/embed/Cj7C7ambQA4?si=l8nZRM19eZbJ49AG\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+            },
+            {
+              "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/3a9d7455-3d5b-4239-b8d1-d4a7a3444610/Image-2.png",
+              "alt": "Texto Alternativo Exemplo",
+              "text": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor. Donec luctus tortor sed urna sollicitudin, convallis luctus dolor lobortis. Proin elit felis, dictum et enim in, dapibus fringilla lectus.&nbsp;</span></p><p></p><p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor. Donec luctus tortor sed urna sollicitudin, convallis luctus dolor lobortis. Proin elit felis, dictum et enim in, dapibus fringilla lectus.&nbsp;</span></p>",
+              "title": "Lorem ipsum dolor sit amet",
+              "mediaType": "IMAGE"
+            },
+            {
+              "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/001a421c-eae2-4090-a337-743c0cccd422/Image-3.png",
+              "alt": "Texto Alternativo Exemplo",
+              "title": "Lorem ipsum dolor sit amet",
+              "text": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit felis in nunc hendrerit varius. Maecenas suscipit lacinia mauris eget vulputate. Ut maximus dapibus tempor. Donec luctus tortor sed urna sollicitudin, convallis luctus dolor lobortis. Proin elit felis, dictum et enim in, dapibus fringilla lectus.&nbsp;</span></p>",
+              "mediaType": "IMAGE"
+            }
+          ],
+          "productId": "154529"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Product/QuickInformationBar.tsx",
+      "elements": [
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/fb364f9d-e552-4d01-9137-2f9cc11e6538/wpp-icone.svg",
+          "title": "Telefone/Whatsapp:",
+          "contact": "(11) 3279-5555",
+          "url": "https://wa.me/551132795555"
+        },
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/cf1f3f68-06cf-4330-b0e2-538e46ead502/skype-icone.svg",
+          "title": "Skype:",
+          "contact": "scarcom-info",
+          "url": "skype:scarcom-info?call"
+        },
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/20f042af-e92b-4df3-a2a0-aed2fc916ecd/email-icone.svg",
+          "title": "E-mail:",
+          "contact": "atendimento@scarcom.com.br",
+          "url": "mailto:atendimento@scarcom.com.br"
+        }
+      ],
+      "shortLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/scarcom/f54678cc-74e1-4c75-9352-ce1e279e75fa/logo.svg"
+    },
+    {
+      "__resolveType": "Produtos relacionados "
+    },
+    {
+      "__resolveType": "Footer Global"
+    },
+    {
+      "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
+      "jsonLD": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Política de Devolução",
+  "path": "/institucional/politica-de-devolucao",
+  "sections": [
+    {
+      "__resolveType": "Analytics"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<div class=\"bloco-text-technos\"><p class=\"paragf\">Nosso processo de troca é simples e prático. <br><br>Caso deseje um vale-troca, para ser utilizado exclusivamente na loja online, você deverá fazer a solicitação em até 7 dias corridos, a contar da data de recebimento do pedido. O vale recebido expirará 90 dias após sua emissão e deverá ser utilizado em uma única compra. <br><br>NO cliente poderá acessar o site e escolher o novo produto a ser adquirido<strong> UTILIZANDO O VALE-TROCA </strong> no momento de finalização da compra (campo ADICIONAR VALE PRESENTE). <br><br>A PRIMEIRA troca é garantida sem nenhum custo adicional. Uma vez confirmado o recebimento pela Technos, conferido o produto e aprovada a troca, o cliente poderá acessar o site e escolher o novo produto a ser adquirido. <br><br></p><p class=\"paragf\">O envio do produto a ser devolvido pode ser feito através dos seguintes passos:</p><ul><li><p class=\"paragf\"><strong>Acesse a nossa página de troca - <a href=\"https://technos.minhatroca.com.br/\" data-mce-href=\"https://technos.minhatroca.com.br/\">Aqui;</a></strong></p></li><li><p class=\"paragf\">Digite o número do seu pedido;</p></li><li><p class=\"paragf\">Digite o mesmo endereço de e-mail utilizado para realizar a compra e clique em “Buscar e Continuar”;</p></li><li><p class=\"paragf\">Escolha os itens do pedido que deseja trocar ou devolver, optando por “Trocar”. Clique em “Continuar”;</p></li><li><p class=\"paragf\">Escolha entre as opções, o motivo pelo qual está realizando a troca. Clique em “Continuar”;</p></li><li><p class=\"paragf\">Clique na opção de postagem para realizar o envio da devolução o nosso centro de distribuição;</p></li><li><p class=\"paragf\">Confirme e finalize;</p></li></ul><br><br><p class=\"paragf\">Você receberá por e-mail o código de postagem com todas as instruções sobre como utilizá-lo, ou seja, basta ir a uma agência dos correios e apresentar este código. Assim que o produto retornar ao nosso centro de distribuição, será analisada pelo controle de qualidade no prazo de 7 dias úteis após o recebimento. Se estiver tudo certo, de acordo com a sua escolha: Você receberá um crédito no valor da peça para realizar uma nova compra na loja online, ou o estorno do seu pedido parcial ou integral.</p><h3 class=\"head-text\"><br><strong>CONDIÇÕES DE TROCA</strong></h3><ul><li><p class=\"paragf\">Os produtos trocados devem ser enviados conforme as instruções a seguir, caso contrário a Technos poderá recusar a troca:</p></li><li><p class=\"paragf\">Os produtos deverão ser acompanhados da nota fiscal e da garantia;</p></li><li><p class=\"paragf\">Os produtos deverão ser enviados em suas embalagens originais (de forma a garantir a proteção e a integridade do produto);</p></li><li><p class=\"paragf\">Os produtos não poderão ter vestígios de uso.</p></li></ul><h3 class=\"head-text\"><br><strong>IMPORTANTE:</strong></h3><ul><li><p class=\"paragf\">Somente a 1ª troca é cedida de forma gratuita pela Technos. Sendo assim, o consumidor passará a ser responsável pelos valores de logística reversa das trocas seguintes.</p></li></ul><br><br><p class=\"paragf\"><strong>ATENÇÃO:</strong> Em caso de análise de peças já utilizadas, não utilize o Troca Fácil e sim envie uma solicitação através do e-mail: atendimento@technos.com.br. É essencial o envio da nota fiscal junto com a devolução; não fazemos reserva ou substituição de peças, por isso, não garantimos disponibilidade de estoque.</p></div>"
+            },
+            "title": "TROCAS E DEVOLUÇÕES"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

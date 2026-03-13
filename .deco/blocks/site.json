@@ -1,0 +1,74 @@
+{
+  "seo": {
+    "type": "website",
+    "image": "https://assets.decocache.com/scarcom/a188a542-2ca2-478e-bacc-f6a28c0a2c3d/1742476359184-1f6dc342-05a2-4692-87d3-22a19abac5ca",
+    "title": "Scarcom",
+    "jsonLDs": [],
+    "noIndexing": false,
+    "description": "Scarcom.com.br. Confira nossa linha de Computadores, Redes, Memórias, Placas de Vídeo, HD, SSD, Roteadores e toda linha completa para empresa.",
+    "titleTemplate": "%s | Scarcom",
+    "descriptionTemplate": "%s | Scarcom",
+    "favicon": "https://assets.decocache.com/scarcom/3207749f-9cb5-460c-b3b3-44d933f7c55e/1742476368625-c5d0bf4a-d262-4e4a-b3ac-61244ad881c6"
+  },
+  "theme": {
+    "__resolveType": "Fashion theme"
+  },
+  "global": [
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "dangerouslyRunOnMainThread": true,
+      "trackingIds": [],
+      "googleAnalyticsIds": [
+        "G-73Z9CV9QQV"
+      ]
+    },
+    {
+      "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
+    },
+    {
+      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
+    },
+    {
+      "__resolveType": "htmx/sections/htmx.tsx"
+    }
+  ],
+  "routes": [
+    {
+      "__resolveType": "vtex/loaders/proxy.ts",
+      "includeSiteMap": [],
+      "extraPathsToProxy": [],
+      "includeScriptsToHead": {
+        "includes": [
+          {
+            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts"
+          }
+        ],
+        "includePlausible": true
+      }
+    },
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    },
+    {
+      "__resolveType": "website/loaders/redirects.ts"
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
+  "commerce": {
+    "platform": "other"
+  },
+  "platform": "vtex",
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": false,
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
+  }
+}

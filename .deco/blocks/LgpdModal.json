@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/sections/LgpdModal/LgpdModal.tsx",
+  "button": {
+    "variant": "primary",
+    "label": "Concordo"
+  },
+  "text": "<p>Coletamos dados para melhorar a segurança, desempenho do site e personalizar anúncios e conteúdos. Você pode configurar suas preferências em nosso site e conferir nossa <a class=\"underline\" href=\"https://www.scarcom.com.br/institucional/politica-privacidade\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.scarcom.com.br/institucional/politica-privacidade\">Política de Privacidade.</a></p>",
+  "modalCloseExpiredDate": 30
+}

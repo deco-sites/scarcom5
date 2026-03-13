@@ -1,0 +1,65 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Images/ImageGallery.tsx",
+        "images": [
+          {
+            "alt": "relogioanel",
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "xl",
+              "desktop": "xl"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://assets.decocache.com/scarcom/85f9d5c3-1271-4f40-8f50-558d92a54d1d/1742476514265-3dba5285-e335-4d2f-8fc1-ae2b7c5dee65",
+            "imageMobile": "https://assets.decocache.com/scarcom/175f5fc5-17ca-4942-8e61-19967782100e/1742476516023-ed6559bd-515b-4aa2-84b7-27e77864a2ef",
+            "href": "/relogioanel"
+          },
+          {
+            "alt": "relogioanel",
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "xl",
+              "desktop": "xl"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://assets.decocache.com/scarcom/85f9d5c3-1271-4f40-8f50-558d92a54d1d/1742476514265-3dba5285-e335-4d2f-8fc1-ae2b7c5dee65",
+            "imageMobile": "https://assets.decocache.com/scarcom/175f5fc5-17ca-4942-8e61-19967782100e/1742476516023-ed6559bd-515b-4aa2-84b7-27e77864a2ef",
+            "href": "/relogioanel"
+          },
+          {
+            "alt": "relogioanel",
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "xl",
+              "desktop": "xl"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://assets.decocache.com/scarcom/85f9d5c3-1271-4f40-8f50-558d92a54d1d/1742476514265-3dba5285-e335-4d2f-8fc1-ae2b7c5dee65",
+            "imageMobile": "https://assets.decocache.com/scarcom/175f5fc5-17ca-4942-8e61-19967782100e/1742476516023-ed6559bd-515b-4aa2-84b7-27e77864a2ef",
+            "href": "/relogioanel"
+          }
+        ],
+        "itemPerPageDesktop": 3,
+        "itemPerPageMobile": 1
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "ImageGallery",
+      "withContainer": true
+    }
+  ],
+  "label": "\"Container\""
+}

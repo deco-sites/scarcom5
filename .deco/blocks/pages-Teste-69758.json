@@ -1,0 +1,35 @@
+{
+  "name": "Nossas Lojas",
+  "path": "/institucional/nossas-lojas",
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/MapContent.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "url": "https://munddi.com/eurorelogios?e=1"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "top",
+          "label": "Map Content",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

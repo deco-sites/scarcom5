@@ -1,0 +1,22 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "label": "\"Container\"",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Category/CategoryBreadcrumb.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/legacy/productListingPage.ts",
+          "sort": "OrderByPriceDESC",
+          "count": 1
+        }
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "both",
+      "label": "categoryBreadcrumb",
+      "withContainer": true
+    }
+  ],
+  "banners": []
+}

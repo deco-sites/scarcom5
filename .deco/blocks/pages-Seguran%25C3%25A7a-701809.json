@@ -1,0 +1,42 @@
+{
+  "name": "Segurança",
+  "path": "/institucional/seguranca",
+  "sections": [
+    {
+      "__resolveType": "Analytics"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">O nosso site é 100% seguro. Nosso site é certificado pela Comodo, uma das maiores autoridades em segurança na Internet. Assim, as informações que você digita (seus dados pessoais, a forma de pagamento escolhida e toda e qualquer outra informação fornecida no processo de compra), são criptografadas (codificadas) antes de ser transmitida. O ícone \"cadeado fechado\" na parte inferior do seu monitor durante o preenchimento dos dados é um símbolo da criptografia das informações. As senhas armazenadas no site também estão criptografadas. Faça a sua compra tranqüilo, sabendo que você navega num site seguro.</span></p>"
+            },
+            "title": "POLÍTICA DE SEGURANÇA"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

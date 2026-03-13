@@ -1,0 +1,96 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "label": "\"Container\"",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Content/InfoCard.tsx",
+        "title": "Nossas redes sociais",
+        "titleColor": "secondary",
+        "captionColor": "secondary",
+        "textAlign": "Center",
+        "links": [
+          {
+            "icon": "Instagram",
+            "label": "Instagram",
+            "href": "https://www.instagram.com/scarcom_informatica/"
+          },
+          {
+            "icon": "YouTube",
+            "label": "Youtube",
+            "href": "https://www.youtube.com/@ScarcomBr"
+          },
+          {
+            "icon": "Facebook",
+            "label": "Facebook",
+            "href": "https://pt-br.facebook.com/Scarcom/"
+          }
+        ]
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "InfoCard",
+      "withContainer": true
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Images/ImageGallery.tsx",
+        "images": [
+          {
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://assets.decocache.com/scarcom/0562ece3-cf7f-46ff-aca7-d6e6d26d82e7/1742476519760-ab6f327e-95f0-4756-af69-3b3534515ff2",
+            "imageMobile": "https://assets.decocache.com/scarcom/cb1f39bc-cfdd-4899-92d6-b50f0d359018/1742476522164-a4d00c59-fc07-4cf4-94e0-d1bc99710215",
+            "alt": "logitech mk270",
+            "href": "/logitech-mk270-920-004433/p"
+          },
+          {
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://assets.decocache.com/scarcom/eded66a4-e141-49ec-b42d-3ec9eb1fa0a6/1742476523827-a5b9cbe3-64d6-448b-bc48-bd6706260bdb",
+            "imageMobile": "https://assets.decocache.com/scarcom/42992ffb-274c-4269-98e7-2d134b31aad3/1742476525582-9c7a5294-da91-4ecd-9e6b-290ad94c8d4d",
+            "alt": "ac1750 poe gigabit dual band ubiquiti",
+            "href": "/access_point_ac2550_dual_band_gigabit_high_density_poe_ubiquiti_unifi_uap-ac-hd/p?skuId=154184"
+          },
+          {
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://assets.decocache.com/scarcom/4452ff52-4c46-470a-92dd-45a70ad38864/1742476527109-2bad0cff-7517-4eb8-8553-5361b6eeddbb",
+            "imageMobile": "https://assets.decocache.com/scarcom/a478919b-3edc-49e4-ba3e-e6b7c4748244/1742476530973-3b0d552e-2801-4a58-b622-269e1cb5f0b0",
+            "alt": "logitech c920e",
+            "href": "/logitech-c920e-960-00136/p?skuId=1631"
+          }
+        ],
+        "itemPerPageDesktop": 3,
+        "itemPerPageMobile": 1
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "ImageGallery",
+      "withContainer": true
+    }
+  ]
+}

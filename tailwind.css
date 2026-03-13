@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Allow changing font family via CMS */
+  html {
+    font-family: var(--font-family);
+  }
+
+  mark {
+    @apply bg-accent text-accent-content;
+  }
+
+  /** Remove default styles from input[type=number] */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Disable scroll once drawer/modal is openned */
+  body:has(.drawer-toggle:checked),
+  body:has(.modal-toggle:checked) {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
+
+@layer components {
+  .features {
+    @apply flex items-center justify-center gap-6 flex-wrap;
+    @apply relative max-w-[1280px] mx-auto;
+  }
+
+  .feature-card {
+    @apply w-[380px] max-w-[380px] lg:h-[380px] bg-[#f4f4f4] rounded-3xl;
+    @apply border-l border-transparent duration-200 whitespace-pre-line
+      text-center;
+    @apply flex flex-col items-center justify-start gap-8 py-10 px-8 lg:px-12;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  .modal-scarcom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    display: grid;
+    height: 100px;
+    max-height: none;
+    width: 100%;
+    max-width: none;
+    justify-items: center;
+    padding: 0;
+    visibility: hidden;
+    overscroll-behavior: contain;
+    z-index: 999;
+    background-color: transparent;
+    color: inherit;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-property: transform, opacity, visibility;
+    overflow-y: hidden;
+  }
+
+  .modal-scarcom[open] {
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .modal-time {
+    pointer-events: none;
+    position: fixed;
+    inset: 0;
+    margin: 0;
+    display: grid;
+    height: 100%;
+    max-height: none;
+    width: 100%;
+    max-width: none;
+    justify-items: center;
+    padding: 0;
+    visibility: hidden;
+    overscroll-behavior: contain;
+    z-index: 999;
+    background-color: transparent;
+    color: inherit;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-property: transform, opacity, visibility;
+    overflow-y: hidden;
+  }
+
+  .modal-time[open] {
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .modal-time::backdrop, .modal-time:not(dialog:not(.modal-time-open)) {
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: modal-pop 0.2s ease-out;
+  }
+}
+
+@layer utilities {
+  .scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  @keyframes slide-left-frame {
+    0% {
+      transform: translateX(100%);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slide-right-frame {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slide-bottom-frame {
+    0% {
+      transform: translateY(100%);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .animate-slide-left {
+    animation: slide-left-frame 0.4s ease normal;
+  }
+
+  .animate-slide-right {
+    animation: slide-right-frame 0.4s ease normal;
+  }
+
+  .animate-slide-bottom {
+    animation: slide-bottom-frame 0.4s ease normal;
+  }
+}
+
+.group:disabled .group-disabled\:animate-progress {
+  animation: progress-frame ease normal;
+}
+
+@keyframes progress-frame {
+  0% {
+    --dot-progress: 0%;
+  }
+
+  to {
+    --dot-progress: 100%;
+  }
+}

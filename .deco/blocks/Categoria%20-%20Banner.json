@@ -1,0 +1,27 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "label": "Categoria - Banner",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+        "banners": [
+          {
+            "image": {
+              "alt": " ",
+              "desktop": "https://assets.decocache.com/scarcom/6b698e7f-6e91-42d9-97b4-6306de0a3768/1742476532709-b9e0a032-5abe-4e09-afba-0a82951f7ab5",
+              "mobile": "https://assets.decocache.com/scarcom/6b698e7f-6e91-42d9-97b4-6306de0a3768/1742476532709-b9e0a032-5abe-4e09-afba-0a82951f7ab5"
+            },
+            "matcher": "/oculos"
+          }
+        ]
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "both",
+      "label": "categoryBanner",
+      "withContainer": true
+    }
+  ],
+  "banners": []
+}

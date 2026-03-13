@@ -1,0 +1,16 @@
+{
+  "name": "DataSheet-WesternDigital-HD",
+  "path": "/eDataSheet-WesternDigital-HD",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header Global"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

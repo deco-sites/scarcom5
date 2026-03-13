@@ -1,0 +1,107 @@
+{
+  "__resolveType": "site/sections/Product/BrandSEO.tsx",
+  "account": "scarcom",
+  "ctas": [],
+  "brands": [
+    {
+      "matchers": [
+        "western-digital"
+      ],
+      "ctas": [
+        {
+          "text": "HD SSD - Solid State Drive",
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-SSD/busca?map=c%2Cc%2Cft&q=Western+Digital&page=1"
+        },
+        {
+          "text": "HD para Servidor",
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-para-Servidor/busca?map=c%2Cc%2Cft&q=Western+Digital&page=1"
+        },
+        {
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-para-PC/busca/WESTERN-DIGITAL?map=c%2Cc%2Cft%2Cb&q=Western+Digital&page=1",
+          "text": "HD para PC"
+        },
+        {
+          "text": "HD para Notebook",
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-para-Notebook/busca?map=c%2Cc%2Cft&q=Western+Digital&page=1"
+        },
+        {
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-Externo/busca?map=c%2Cc%2Cft&q=Western+Digital&page=1",
+          "text": "HD Externo"
+        },
+        {
+          "text": "NAS - Network Attached Storage",
+          "href": "https://www.scarcom.com.br/Armazenamento/NAS/busca?map=c%2Cc%2Cft&q=Western+Digital&page=1"
+        },
+        {
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-para-Monitoramento/busca?map=c%2Cc%2Cft&q=Western+Digital&page=1",
+          "text": "HD para Monitoramento e Vigilância"
+        },
+        {
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-para-NAS/busca?map=c%2Cc%2Cft&q=Western+Digital&page=1",
+          "text": "HD para NAS"
+        }
+      ],
+      "title": "Produtos Western Digital na SCARCOM",
+      "description": "<p>Fundada em 1970, a Western Digital é uma das líderes globais em soluções de armazenamento de dados, reconhecida pela confiabilidade, inovação e alto desempenho. Com produtos que vão de discos rígidos a SSDs de última geração, a marca atende empresas que necessitam de máxima segurança e eficiência no gerenciamento de informações.<br></p><p>Na SCARCOM, você encontra a linha completa de produtos Western Digital originais, com garantia oficial, suporte especializado e condições facilitadas para empresas. Solicite seu orçamento e descubra como potencializar a infraestrutura de TI do seu negócio.</p>"
+    },
+    {
+      "matchers": [
+        "kingston"
+      ],
+      "title": "Produtos Kingston na SCARCOM",
+      "ctas": [
+        {
+          "text": "Memórias RAM Kingston para Servidor",
+          "href": "https://www.scarcom.com.br/Memoria/Memoria-Ram-para-Servidor/busca?map=c%2Cc%2Cft&q=kingston&page=1"
+        },
+        {
+          "text": "Memórias RAM Kingston para Notebook",
+          "href": "https://www.scarcom.com.br/Memoria/Memoria-Ram-Para-Notebook/busca?map=c%2Cc%2Cft&q=kingston&page=1"
+        },
+        {
+          "text": "Memórias RAM Kingston para PC",
+          "href": "https://www.scarcom.com.br/Memoria/Memoria-Ram-Para-PC/busca?map=c%2Cc%2Cft&q=kingston&page=1"
+        },
+        {
+          "text": "SSD Kingston para Armazenamento Externo",
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-Externo/busca/KINGSTON?map=c%2Cc%2Cft%2Cb&q=kingston&page=1"
+        },
+        {
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-SSD/busca/KINGSTON?map=c%2Cc%2Cft%2Cb&q=kingston&page=1",
+          "text": "SSDs Kingston para Armazenamento"
+        },
+        {
+          "text": "HD Kingston para Monitoramento e Vigilância",
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-para-Monitoramento/busca/KINGSTON?map=c%2Cc%2Cft%2Cb&q=kingston&page=1"
+        },
+        {
+          "text": "SSD e HD Kingston para Servidor",
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-para-Servidor/busca/KINGSTON?map=c%2Cc%2Cft%2Cb&q=kingston&page=1"
+        }
+      ],
+      "description": "<p><span style=\"font-size: 10pt\">A Kingston Technology foi fundada em 1987 e tornou-se referência mundial em memórias e soluções de armazenamento. Reconhecida pela durabilidade e pela inovação tecnológica, a Kingston oferece produtos que garantem alto desempenho e confiabilidade para empresas de todos os portes.</span><br><span style=\"font-size: 10pt\"><br>Na SCARCOM, você adquire produtos Kingston originais com garantia oficial, atendimento personalizado e facilidade de pagamento para PJ. Confira nossa linha completa e fale com nossa equipe para um orçamento sob medida.</span></p>"
+    },
+    {
+      "matchers": [
+        "adata"
+      ],
+      "ctas": [
+        {
+          "text": "Memórias RAM Adata para PC",
+          "href": "https://www.scarcom.com.br/Memoria/Memoria-Ram-Para-PC/ADATA?map=c%2Cc%2Cb&page=1"
+        },
+        {
+          "text": "Memórias RAM Adata para Notebook",
+          "href": "https://www.scarcom.com.br/Memoria/Memoria-Ram-Para-Notebook/ADATA?map=c%2Cc%2Cb&page=1"
+        },
+        {
+          "text": "SSDs Adata para Armazenamento",
+          "href": "https://www.scarcom.com.br/Armazenamento/HD-SSD/ADATA?map=c%2Cc%2Cb&page=1"
+        }
+      ],
+      "title": "Produtos Adata na SCARCOM",
+      "description": "<p><span style=\"font-size: 10pt\">Desde 2001, a Adata é uma das principais fabricantes globais de módulos de memória e soluções de armazenamento digital. Reconhecida pela qualidade, inovação e ótimo custo-benefício, a marca atende tanto usuários corporativos quanto consumidores finais.</span><br><span style=\"font-size: 10pt\"><br>Na SCARCOM, você encontra produtos Adata originais, com garantia oficial e suporte especializado, além de condições de pagamento facilitadas para empresas. Solicite seu orçamento agora e conheça as soluções ideais para sua infraestrutura de TI.</span></p>"
+    }
+  ],
+  "maxHeight": "120px"
+}

@@ -1,0 +1,667 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Header/TopNavBar.tsx",
+        "alerts": [
+          {
+            "idIcon": "",
+            "textAlert": "atendimento@timecenter.com.br",
+            "textColor": "#ffffff",
+            "alt": "Frete grátis acima de R$ 450"
+          },
+          {
+            "idIcon": "",
+            "textAlert": "Frete grátis acima de R$ 450",
+            "textColor": "#ffffff",
+            "alt": "Frete grátis acima de R$ 450"
+          },
+          {
+            "idIcon": "",
+            "textAlert": "Frete grátis acima de R$ 450",
+            "textColor": "#ffffff",
+            "alt": "Frete grátis acima de R$ 450"
+          },
+          {
+            "idIcon": "",
+            "textAlert": "Frete grátis acima de R$ 450",
+            "textColor": "#ffffff",
+            "alt": "Frete grátis acima de R$ 450"
+          }
+        ],
+        "interval": 5
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "Topbar",
+      "backgroundColor": "#000000"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Header/HeaderLayout.tsx",
+        "logo": {
+          "image": "https://assets.decocache.com/scarcom/8885563d-4bd2-444c-8949-275085d94c0b/1742476385165-e5047179-73dc-4bfe-976b-d846c2659d6e"
+        },
+        "navItems": [
+          {
+            "showLabel": true,
+            "children": [],
+            "label": "Lançamentos",
+            "href": "/lancamentos"
+          },
+          {
+            "children": [
+              {
+                "showLabel": true,
+                "children": [
+                  {
+                    "children": [],
+                    "label": "Relógio Anadigi",
+                    "href": "/relogio/masculino/anadigi?PS=48&O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "href": "/relogio/masculino/analogico?PS=48&O=OrderByReleaseDateDESC",
+                    "label": "Relógio Analógico",
+                    "children": []
+                  },
+                  {
+                    "href": "/relogio/masculino/digital?PS=48&O=OrderByReleaseDateDESC",
+                    "label": "Relógio Digital",
+                    "children": []
+                  },
+                  {
+                    "href": "/relogio/masculino/multifuncao?PS=48&O=OrderByReleaseDateDESC",
+                    "label": "Relógio Multifunção",
+                    "children": []
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Cronógrafo",
+                    "href": "/relogio/masculino/cronografo?O=OrderByReleaseDateDESC",
+                    "image": {
+                      "alt": "Cronógrafo"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Automático",
+                    "href": "/relogio/masculino/automatico?O=OrderByReleaseDateDESC",
+                    "image": {
+                      "alt": "Automático"
+                    }
+                  }
+                ],
+                "href": "/relogio/masculino?PS=12&O=OrderByBestDiscountDESC",
+                "label": "Mecanismo",
+                "highlighted": false
+              },
+              {
+                "href": "/relogio?PS=48&O=OrderByReleaseDateDESC",
+                "label": "Caixa",
+                "children": [
+                  {
+                    "href": "/relogio/masculino/quadrada?PS=48&O=OrderByReleaseDateDESC",
+                    "label": "Quadrada",
+                    "children": []
+                  },
+                  {
+                    "href": "/relogio/masculino/redonda?PS=48&O=OrderByReleaseDateDESC",
+                    "label": "Redonda",
+                    "children": []
+                  },
+                  {
+                    "href": "/relogio/masculino/retangular?PS=48&O=OrderByReleaseDateDESC",
+                    "label": "Retangular",
+                    "children": []
+                  }
+                ],
+                "showLabel": true
+              },
+              {
+                "href": "/relogio?PS=48&O=OrderByReleaseDateDESC",
+                "label": "Pulseira",
+                "children": [
+                  {
+                    "href": "/relogio/masculino/aco?O=OrderByReleaseDateDESC",
+                    "label": "Aço ",
+                    "children": []
+                  },
+                  {
+                    "href": "/relogio/masculino/silicone?O=OrderByReleaseDateDESC",
+                    "label": "Silicone",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/relogio/masculino/ceramica?O=OrderByReleaseDateDESC",
+                    "label": "Cerâmica",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Couro",
+                    "href": "/relogio/masculino/couro?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Resina",
+                    "href": "/relogio/masculino/resina?O=OrderByReleaseDateDESC",
+                    "image": {
+                      "alt": "Resina"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "href": "/relogio/masculino/tecido?O=OrderByReleaseDateDESC",
+                    "label": "Tecido",
+                    "image": {
+                      "alt": "Tecido"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "href": "/relogio/masculino/titanio?O=OrderByReleaseDateDESC",
+                    "label": "Titânio",
+                    "image": {
+                      "alt": "Titânio"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "href": "/relogio/masculino/polimero?O=OrderByReleaseDateDESC",
+                    "label": "Polímero",
+                    "image": {
+                      "alt": "Polímero"
+                    }
+                  }
+                ],
+                "showLabel": true
+              },
+              {
+                "href": "/relogio?PS=48&O=OrderByReleaseDateDESC",
+                "label": "Cor",
+                "children": [
+                  {
+                    "href": "/relogio/masculino/dourado?O=OrderByReleaseDateDESC",
+                    "label": "Dourado",
+                    "children": [],
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Dourado"
+                    }
+                  },
+                  {
+                    "href": "/relogio/masculino/prata?O=OrderByReleaseDateDESC",
+                    "label": "Prata",
+                    "children": [],
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Prata"
+                    }
+                  },
+                  {
+                    "href": "/relogio/masculino/preto?O=OrderByReleaseDateDESC",
+                    "label": "Preto",
+                    "children": [],
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Preto"
+                    }
+                  },
+                  {
+                    "href": "/relogio/masculino/rose?O=OrderByReleaseDateDESC",
+                    "label": "Rosé",
+                    "children": [],
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Rosé"
+                    }
+                  },
+                  {
+                    "href": "/relogio/masculino/marrom?O=OrderByReleaseDateDESC",
+                    "label": "Marrom",
+                    "children": [],
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Marrom"
+                    }
+                  },
+                  {
+                    "href": "/relogio/masculino/color?O=OrderByReleaseDateDESC",
+                    "label": "Color",
+                    "children": [],
+                    "image": {
+                      "alt": "Color"
+                    }
+                  },
+                  {
+                    "children": [],
+                    "href": "/relogio/masculino/bicolor?O=OrderByReleaseDateDESC",
+                    "label": "Bicolor",
+                    "image": {
+                      "alt": "Bicolor"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "href": "/relogio/masculino/especiais?O=OrderByReleaseDateDESC",
+                    "label": "Especiais",
+                    "image": {
+                      "alt": "Especiais"
+                    }
+                  }
+                ],
+                "showLabel": true
+              },
+              {
+                "showLabel": true,
+                "children": [],
+                "href": "/relogio/masculino/smartwatch?O=OrderByReleaseDateDESC",
+                "label": "Smartwatch",
+                "image": {
+                  "alt": "Smartwatch"
+                }
+              },
+              {
+                "showLabel": true,
+                "children": [],
+                "label": "Ver Todos",
+                "href": "/relogio/masculino?O=OrderByReleaseDateDESC"
+              }
+            ],
+            "label": "relógios masculinos",
+            "href": "/relogio/masculino?PS=12&O=OrderByBestDiscountDESC"
+          },
+          {
+            "showLabel": true,
+            "children": [
+              {
+                "label": "Mecanismo",
+                "children": [
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Anadigi",
+                    "href": "/relogio/feminino/anadigi?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Analógico",
+                    "href": "/relogio/feminino/analogico?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Digital",
+                    "href": "/relogio/feminino/digital?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Multifunção",
+                    "href": "/relogio/feminino/multifuncao?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Automático",
+                    "href": "/relogio/feminino/automatico?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Cronógrafo",
+                    "href": "/relogio/feminino/cronografo?O=OrderByReleaseDateDESC"
+                  }
+                ],
+                "showLabel": true,
+                "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC"
+              },
+              {
+                "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC",
+                "label": "Caixa",
+                "children": [
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Quadrada",
+                    "href": "/relogio/feminino/quadrada?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Redonda",
+                    "href": "/relogio/feminino/redonda?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Retangular",
+                    "href": "/relogio/feminino/retangular?O=OrderByReleaseDateDESC"
+                  }
+                ],
+                "showLabel": true
+              },
+              {
+                "showLabel": true,
+                "children": [
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Aço ",
+                    "href": "/relogio/feminino/aco?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Silicone",
+                    "href": "/relogio/feminino/silicone?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Cerâmica",
+                    "href": "/relogio/feminino/ceramica?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Couro",
+                    "href": "/relogio/feminino/couro?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Resina",
+                    "href": "/relogio/feminino/resina?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Tecido",
+                    "href": "/relogio/feminino/tecido?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Titânio",
+                    "href": "/relogio/feminino/titanio?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Polímero",
+                    "href": "/relogio/feminino/polimero?O=OrderByReleaseDateDESC"
+                  }
+                ],
+                "label": "Pulseira",
+                "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC"
+              },
+              {
+                "showLabel": true,
+                "children": [
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Dourado",
+                    "href": "/relogio/feminino/dourado?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Prata",
+                    "href": "/relogio/feminino/prata?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Preto",
+                    "href": "/relogio/feminino/preto?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Rosé",
+                    "href": "/relogio/feminino/rose?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Marrom",
+                    "href": "/relogio/feminino/marrom?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Color",
+                    "href": "/relogio/feminino/color?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Bicolor",
+                    "href": "/relogio/feminino/bicolor?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Especiais",
+                    "href": "/relogio/feminino/especiais?O=OrderByReleaseDateDESC"
+                  }
+                ],
+                "label": "Cor",
+                "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC"
+              },
+              {
+                "showLabel": true,
+                "children": [],
+                "label": "Smartwatch",
+                "href": "/relogio/feminino/smartwatch?O=OrderByReleaseDateDESC"
+              },
+              {
+                "showLabel": true,
+                "children": [],
+                "label": "Ver Todos",
+                "href": "/relogio/feminino?O=OrderByReleaseDateDESC"
+              }
+            ],
+            "label": "relógios femininos",
+            "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC"
+          },
+          {
+            "showLabel": true,
+            "children": [],
+            "label": "Smartwatch",
+            "href": "/s?q=smartwatch"
+          },
+          {
+            "showLabel": true,
+            "children": [],
+            "href": "/kit",
+            "label": "kits"
+          },
+          {
+            "showLabel": true,
+            "children": [
+              {
+                "href": "/",
+                "label": "Collum 1",
+                "children": [
+                  {
+                    "href": "/relogio/allora?O=OrderByReleaseDateDESC",
+                    "label": "Allora",
+                    "children": []
+                  },
+                  {
+                    "href": "/relogio/armani-exchange?O=OrderByReleaseDateDESC",
+                    "label": "Armani Exchange",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/relogio/condor?O=OrderByReleaseDateDESC",
+                    "label": "Condor",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/relogio/dumont?O=OrderByReleaseDateDESC",
+                    "children": [],
+                    "showLabel": true,
+                    "label": "Dumont"
+                  }
+                ],
+                "showLabel": false
+              },
+              {
+                "href": "/",
+                "label": "Collum 2",
+                "children": [
+                  {
+                    "href": "/relogio/emporio-armani?O=OrderByReleaseDateDESC",
+                    "label": "Emporio Armani",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/euro/relogio?O=OrderByReleaseDateDESC",
+                    "label": "Euro",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/fossil-store",
+                    "label": "Fossil",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/relogio/flamengo",
+                    "label": "Flamengo",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/relogio/kate-spade?O=OrderByReleaseDateDESC",
+                    "label": "Kate Spade",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/relogio/mariner?O=OrderByReleaseDateDESC",
+                    "label": "Mariner",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "href": "/relogio/michael-kors?O=OrderByReleaseDateDESC",
+                    "label": "Michael Kors"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Mormaii",
+                    "href": "/mormaiishop/relogios"
+                  }
+                ],
+                "showLabel": false
+              },
+              {
+                "href": "/",
+                "label": "Collum 3",
+                "children": [
+                  {
+                    "href": "/relogio/skagen?O=OrderByReleaseDateDESC",
+                    "label": "Skagen",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/relogio/skechers?O=OrderByReleaseDateDESC",
+                    "label": "Skechers",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/relogio/technos?O=OrderByReleaseDateDESC",
+                    "label": "Technos",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
+                    "href": "/relogio/touch",
+                    "label": "Touch",
+                    "children": [],
+                    "showLabel": true
+                  }
+                ],
+                "showLabel": false
+              }
+            ],
+            "label": "Marcas",
+            "href": "/"
+          },
+          {
+            "showLabel": true,
+            "children": [],
+            "label": "OFF",
+            "href": "/relogio?PS=12&O=OrderByBestDiscountDESC",
+            "highlighted": true
+          }
+        ],
+        "minicart": {
+          "platform": {},
+          "desktop": {
+            "buttonMode": "secondary"
+          },
+          "goToCartLabel": "Finalizar Compra",
+          "mobile": {
+            "buttonMode": "primary"
+          },
+          "showClearButton": false
+        },
+        "searchbar": {
+          "cardLayout": {
+            "onMouseOver": {
+              "showCta": true
+            },
+            "hide": {
+              "skuSelector": true,
+              "productDescription": true
+            },
+            "discount": {
+              "label": "off",
+              "variant": "emphasis"
+            },
+            "basics": {
+              "ctaMode": "Add to Cart",
+              "mobileCtaText": "Adicionar ao carrinho",
+              "contentAlignment": "Center"
+            }
+          },
+          "placeholder": "O que esta procurando?"
+        }
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "Header",
+      "withContainer": true
+    }
+  ],
+  "label": "\"Container\""
+}

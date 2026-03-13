@@ -1,0 +1,78 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "label": "\"Container\"",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Images/BannerGrid.tsx",
+        "itemsPerLine": {
+          "mobile": 1,
+          "desktop": 2
+        },
+        "itemsPerColumn": {
+          "mobile": 1,
+          "desktop": 2
+        },
+        "borderRadius": {
+          "mobile": "xl",
+          "desktop": "md"
+        },
+        "columnGap": {
+          "mobile": 1,
+          "desktop": 4
+        },
+        "banners": [
+          {
+            "textColor": "primary",
+            "text": {
+              "verticalAlignment": "Bottom",
+              "horizontalAlignment": "Center",
+              "badges": [],
+              "buttonColor": "primary"
+            },
+            "srcDesktop": "https://assets.decocache.com/scarcom/e3f2986b-4771-49f6-bfce-6ab0d12e5583/1742476503758-51da3cd3-9023-4cef-89f3-b1ea296acf83",
+            "srcMobile": "https://assets.decocache.com/scarcom/b84d3854-a936-4a12-b349-e57a4682efa0/1742476505491-3f79128d-f824-481b-9673-c1f264dd288e",
+            "alt": "Headset USB ",
+            "href": "/c3210-80s01a6/p",
+            "columnStart": 1,
+            "rowStart": 1,
+            "rowSpan": 2
+          },
+          {
+            "textColor": "primary",
+            "text": {
+              "verticalAlignment": "Bottom",
+              "horizontalAlignment": "Right",
+              "badges": [],
+              "buttonColor": "neutral",
+              "reverse": true
+            },
+            "srcDesktop": "https://assets.decocache.com/scarcom/e563ffec-1682-4ff4-82ec-1d65620c8663/1742476508337-c0ce50d5-79cc-438e-bf95-0bd04e56b39a",
+            "alt": "Mini",
+            "href": "/mini",
+            "srcMobile": "https://assets.decocache.com/scarcom/6a2c3d5f-0a02-4a2e-a5c4-7d5954225619/1742476509948-6e6db1cf-366d-43fc-9309-597c2b0028db"
+          },
+          {
+            "textColor": "primary",
+            "text": {
+              "verticalAlignment": "Bottom",
+              "horizontalAlignment": "Right",
+              "badges": [],
+              "buttonColor": "secondary"
+            },
+            "srcDesktop": "https://assets.decocache.com/scarcom/5ed31bbd-2ddc-4861-bdd0-33396e17cc9e/1742476511258-f6b9a972-9310-43c1-8203-b113af945d30",
+            "srcMobile": "https://assets.decocache.com/scarcom/16ed6109-290f-4945-940c-b16e2aad6671/1742476512660-98e69c07-67e9-405d-98ee-ad95b4d26fe7",
+            "alt": "HD SSD Sata 3 Kingston",
+            "href": "/hd_ssd_240_gb_sata_3_kingston_sa400s37-240g/p"
+          }
+        ]
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "none",
+      "label": "BannerGrid",
+      "withContainer": true,
+      "backgroundColor": "#F7F7F7"
+    }
+  ]
+}

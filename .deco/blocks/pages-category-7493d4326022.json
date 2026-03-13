@@ -1,0 +1,34 @@
+{
+  "name": "Category",
+  "path": "/*",
+  "default": {
+    "possiblePaths": []
+  },
+  "sections": [
+    {
+      "jsonLD": {
+        "__resolveType": "PLP Loader"
+      },
+      "__resolveType": "commerce/sections/Seo/SeoPLP.tsx"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "Categoria - Breadcrumb"
+    },
+    {
+      "__resolveType": "Brand SEO"
+    },
+    {
+      "__resolveType": "Categoria - Banner"
+    },
+    {
+      "__resolveType": "SearchResults Category"
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Politica de Privacidade",
+  "path": "/institucional/politica-privacidade",
+  "sections": [
+    {
+      "__resolveType": "Analytics"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<div class=\"bloco-text-technos\"><h1 class=\"institutional-main-heading\"><span style=\"color: rgb(0, 0, 0); font-size: 24pt;\" data-mce-style=\"color: rgb(0, 0, 0); font-size: 24pt;\">POLÍTICA DE PRIVACIDADE</span></h1><p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Não armazenamos nenhuma informação dos nossos clientes que não sejam as necessárias para efetivar uma transação.Armazenamos seu nome e CPF porque isso é exigido por lei para a emissão de nota fiscal e também para envios via SEDEX. Porém, não armazenamos o número do cartão de crédito, porque nossa loja dispõe de uma comunicação direta com as administradoras de cartão que fazem a autorização on-line não exigindo assim o armazenamento do número do seu cartão em nosso site. As informações cadastrais serão utilizadas somente para a efetivação do pagamento e para a entrega da compra. Nenhuma informação coletada será vendida ou cedida para terceiros.</span><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"></span><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"></span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Caso tenha qualquer dúvida ou sugestão sobre a nossa Segurança e Privacidade, não deixe de nos contatar.</span></p></div>"
+            },
+            "title": "TROCAS E DEVOLUÇÕES"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

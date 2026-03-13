@@ -1,0 +1,24 @@
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "label": "\"Container\"",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Content/InfoCard.tsx",
+        "title": "Sobre a Marca",
+        "titleColor": "secondary",
+        "captionColor": "secondary",
+        "html": "<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Desde 2009, a Scarcom é sua <strong>fornecedora de confiança no ramo de informática</strong>. Localizada na grande São Paulo, próxima à Estação do Metrô São Judas, oferecemos uma vasta linha de produtos das <strong>melhores marcas do mercado</strong>, garantindo qualidade e eficiência em cada compra.</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Na Scarcom, você encontra <strong>atendimento personalizado</strong>, <strong>agilidade</strong> <strong>na entrega</strong> e <strong>facilidade nas compras e pagamentos</strong>. Para sua conveniência, disponibilizamos atendimento e pedidos de orçamento via telefone, Skype, WhatsApp e e-mail.</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Entendemos a importância de manter seu negócio em pleno funcionamento. Por isso, oferecemos opções de pagamento facilitadas para Pessoas Jurídicas, incluindo boleto faturado, sujeito a análise cadastral. Não deixe que um equipamento parado prejudique seu fluxo de trabalho.</span></p><p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Escolha a Scarcom para suas necessidades em informática e aproveite nossos serviços especializados.</span></p>",
+        "textAlign": "Center",
+        "links": [],
+        "titleTag": "h1"
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "InfoCard",
+      "withContainer": true,
+      "spacing": 0
+    }
+  ]
+}
